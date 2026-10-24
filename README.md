@@ -38,7 +38,7 @@ gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enfor
 - Cloudflare Web Analytics beacon is in `src/layouts/Base.astro` (account hello@wilmassara.com, hostname wilmassara.com). Dashboard: https://dash.cloudflare.com/ > Analytics > Web analytics.
 - Google Search Console: domain property under hello@wilmassara.com.
 - A monthly SEO review runs as a Claude Code scheduled task ("Monthly SEO review: wilmassara.com") on the 21st at 9am local time. It checks site health, Search Console, AI visibility, asks for the month's enquiry count, proposes next actions and appends to `deploy-notes/seo-log.md`.
-- Inbound links from Wil's own sites were staged (not published) on 2026-10-24: YLAA speaker profile and team profile (ylaaus.com), and the YLAA entry on The Youth Impact Foundation's Our Brands page. Publish those Webflow sites to make the links live.
+- Inbound links from Wil's own sites were staged (not published) on 2026-10-24 on the YLAA speaker profile and team profile (ylaaus.com). Publish the YLAA site to make them live. Wil asked for no link on The Youth Impact Foundation site; a staged TYIF edit was reverted the same day.
 
 ## Content rules
 
