@@ -33,6 +33,13 @@ gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enfor
 5. Google Search Console: domain property `sc-domain:wilmassara.com` verified via DNS TXT on 2026-10-24 (record `google-site-verification=...` at @, keep it), sitemap-index.xml submitted and read with status Success. Signed in as hello@wilmassara.com. Still optional: Bing Webmaster Tools (it can import the Search Console property in one click).
 6. Optional email hygiene noticed during the DNS work: there is no SPF TXT record at @ for Google Workspace. Adding `v=spf1 include:_spf.google.com ~all` improves deliverability of hello@ mail. Not changed, because it is outside the website brief.
 
+## Measurement
+
+- Cloudflare Web Analytics beacon is in `src/layouts/Base.astro` (account hello@wilmassara.com, hostname wilmassara.com). Dashboard: https://dash.cloudflare.com/ > Analytics > Web analytics.
+- Google Search Console: domain property under hello@wilmassara.com.
+- A monthly SEO review runs as a Claude Code scheduled task ("Monthly SEO review: wilmassara.com") on the 21st at 9am local time. It checks site health, Search Console, AI visibility, asks for the month's enquiry count, proposes next actions and appends to `deploy-notes/seo-log.md`.
+- Inbound links from Wil's own sites were staged (not published) on 2026-10-24: YLAA speaker profile and team profile (ylaaus.com), and the YLAA entry on The Youth Impact Foundation's Our Brands page. Publish those Webflow sites to make the links live.
+
 ## Content rules
 
 - Canonical numbers: 65,000+ young people, 1,500+ schools. Founded YLAA at 15 in 2018.
