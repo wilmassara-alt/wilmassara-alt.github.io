@@ -29,7 +29,7 @@ git add -A && git commit -m "Describe the change" && git push && npm run deploy
 gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enforced=true
 ```
 
-4. Activate the form. Submit the booking form once on the live site. FormSubmit emails hello@wilmassara.com an activation link; click it. Every later submission lands in that inbox.
+4. Form activated 2026-10-24 (FormSubmit activation link clicked; a labelled test submission returned success). Every submission lands in hello@wilmassara.com.
 5. Search. Add the site in Google Search Console (domain property, DNS TXT verification) and submit `https://wilmassara.com/sitemap-index.xml`. Add the same in Bing Webmaster Tools.
 6. Optional email hygiene noticed during the DNS work: there is no SPF TXT record at @ for Google Workspace. Adding `v=spf1 include:_spf.google.com ~all` improves deliverability of hello@ mail. Not changed, because it is outside the website brief.
 
