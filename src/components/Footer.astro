@@ -1,0 +1,40 @@
+---
+import { Image } from 'astro:assets';
+import { SITE } from '@/data/site';
+import portrait from '@/assets/photos/stage-heart.jpg';
+const year = new Date().getFullYear();
+const menu = [['/speaking/', 'Speaking'], ['/about/', 'About'], ['/blog/', 'Blog'], ['/media/', 'Media kit'], ['/podcast/', 'Podclass'], ['/book/', 'Book Wil']];
+const places = [['/keynote-speaker/sydney/', 'Sydney'], ['/keynote-speaker/melbourne/', 'Melbourne'], ['/keynote-speaker/brisbane/', 'Brisbane'], ['/keynote-speaker/perth/', 'Perth'], ['/keynote-speaker/adelaide/', 'Adelaide'], ['/keynote-speaker/new-zealand/', 'New Zealand'], ['/keynote-speaker/singapore/', 'Singapore and Asia'], ['/keynote-speaker/united-kingdom/', 'UK and Europe'], ['/keynote-speaker/usa/', 'USA and Canada']];
+const audiences = [['/speaking/corporate/', 'Corporate'], ['/speaking/gen-z-workplace-speaker/', 'Gen Z in the workplace'], ['/speaking/staff-retention-speaker/', 'Staff retention'], ['/speaking/workplace-culture-speaker/', 'Culture and staff events'], ['/speaking/conferences/', 'Conferences'], ['/speaking/schools/', 'Schools'], ['/speaking/government/', 'Government'], ['/speaking/virtual/', 'Virtual']];
+---
+<footer class="grid md:min-h-[100svh] md:grid-cols-2">
+  <div class="pic relative min-h-[50svh] md:min-h-0">
+    <Image src={portrait} alt="Wil Massara on stage, hand on heart" width={1400} class="absolute inset-0 h-full w-full object-cover object-top" />
+  </div>
+  <div class="flex flex-col justify-between bg-surface px-[var(--margin)] pb-6 pt-8 md:pl-[8vw] md:pt-20">
+    <div>
+      <p class="t-small font-extrabold">Wil Massara</p>
+      <nav class="menu mt-10" aria-label="Footer">
+        {menu.map(([href, label]) => <a href={href} class="menu-row">{label}</a>)}
+      </nav>
+      <div class="mt-16 grid gap-8 t-small sm:grid-cols-2">
+        <div>
+          <p class="font-extrabold">Contact</p>
+          <p class="mt-2"><a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a></p>
+          <p class="mt-1">Sydney, Australia. Available worldwide.</p>
+          <p class="mt-4 font-extrabold">Audiences</p>
+          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1">{audiences.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
+        </div>
+        <div>
+          <p class="font-extrabold">Social</p>
+          <p class="mt-2 flex flex-wrap gap-x-3"><a href={SITE.social.linkedin} target="_blank" rel="noopener me" class="link">LinkedIn</a><a href={SITE.social.instagram} target="_blank" rel="noopener me" class="link">Instagram</a><a href="/rss.xml" class="link">RSS</a></p>
+          <p class="mt-4 font-extrabold">Speaking in</p>
+          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1">{places.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
+          <p class="mt-4 font-extrabold">Organisations</p>
+          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1"><a href={SITE.orgs.ylaa.url} target="_blank" rel="noopener" class="link">YLAA</a><a href={SITE.orgs.tyif.url} target="_blank" rel="noopener" class="link">The Youth Impact Foundation</a><a href={SITE.orgs.ylbs.url} target="_blank" rel="noopener" class="link">Magic Moments YLBS</a></p>
+        </div>
+      </div>
+    </div>
+    <p class="mt-12 t-small text-muted">© {year} Wil Massara. Gen Z keynote speaker on Gen Z at work, culture, retention and youth leadership. <a href="/llms.txt" class="link">llms.txt</a></p>
+  </div>
+</footer>

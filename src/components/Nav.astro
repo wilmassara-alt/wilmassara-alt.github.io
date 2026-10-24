@@ -1,0 +1,38 @@
+---
+const links = [
+  { href: '/speaking/', label: 'Speaking' },
+  { href: '/about/', label: 'About' },
+  { href: '/blog/', label: 'Blog' },
+];
+const path = Astro.url.pathname;
+---
+<header id="site-nav" class="fixed inset-x-0 top-0 z-50 bg-bg">
+  <div class="frame flex h-[var(--nav-h)] items-center justify-between">
+    <a href="/" class="font-extrabold tracking-tight t-body" aria-label="Wil Massara, home">Wil Massara</a>
+    <nav class="hidden items-center gap-7 md:flex" aria-label="Primary">
+      {links.map((l) => <a href={l.href} class:list={['t-small font-medium hover:text-accent transition-colors', { 'underline underline-offset-4 decoration-2 decoration-accent': path.startsWith(l.href) }]}>{l.label}</a>)}
+      <a href="/book/" class="btn btn-accent btn-small">Check availability</a>
+    </nav>
+    <button id="nav-toggle" class="md:hidden t-small font-medium" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+  </div>
+  <div id="mobile-menu" class="fixed inset-0 z-[60] hidden flex-col justify-between bg-field px-5 pb-10 pt-24 text-field-ink md:hidden">
+    <nav class="flex flex-col" aria-label="Mobile">
+      <a href="/" class="t-head py-2">Home</a>
+      {links.map((l) => <a href={l.href} class="t-head py-2">{l.label}</a>)}
+      <a href="/media/" class="t-head py-2">Media kit</a>
+      <a href="/book/" class="t-head py-2 text-accent-ink underline decoration-accent decoration-4 underline-offset-8">Book Wil</a>
+    </nav>
+    <div class="flex items-center justify-between t-small">
+      <span>hello@wilmassara.com</span>
+      <button id="nav-close" class="btn btn-light btn-small">Close</button>
+    </div>
+  </div>
+</header>
+<script>
+  const toggle = document.getElementById('nav-toggle')!;
+  const close = document.getElementById('nav-close')!;
+  const menu = document.getElementById('mobile-menu')!;
+  const set = (open: boolean) => { menu.classList.toggle('hidden', !open); menu.classList.toggle('flex', open); toggle.setAttribute('aria-expanded', String(open)); document.documentElement.classList.toggle('lenis-stopped', open); };
+  toggle.addEventListener('click', () => set(menu.classList.contains('hidden')));
+  close.addEventListener('click', () => set(false));
+</script>

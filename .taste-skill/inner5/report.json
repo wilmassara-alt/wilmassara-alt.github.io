@@ -1,0 +1,2309 @@
+{
+ "url": "http://localhost:4321/blog/why-banning-ai-in-schools-fails-students/",
+ "at": "2026-10-24T07:54:22.710Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.32,
+    0.36,
+    0.34,
+    0.3,
+    0.63,
+    0.39,
+    0.97,
+    0.98
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 13,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6816,
+     "screens": 7.6,
+     "words": 1111,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "chars": 65,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.66,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "lines": 2,
+     "size": 64,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "words": 12,
+      "chars": 65,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Schools that ban AI are not protecting students. They are sending them into a workforce that has already changed.",
+      "words": 19,
+      "chars": 113,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 258,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Quick answers",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 3358,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "About the author",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 4459,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Keep reading",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4965,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 388.8,
+      "vw": 27,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5621,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6056,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6112,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6167,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6223,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6278,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6334,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      36,
+      64,
+      88,
+      389
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 19,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 84,
+     "max": {
+      "size": 388.8,
+      "vw": 27,
+      "font": "Cabinet Grotesk",
+      "text": "Book"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#1b1b1c",
+       "top": 4359,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f5c49",
+       "top": 5376,
+       "hsl": {
+        "h": 161,
+        "s": 0.5,
+        "l": 0.24
+       }
+      },
+      {
+       "color": "#b4b4b6",
+       "top": 5916,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.92
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 2,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6816,
+    "margins": {
+     "left": 32,
+     "right": 34
+    },
+    "sections": [
+     {
+      "sel": "header.frame.pt-[calc(var(--nav-h)+48px)]",
+      "tag": "header",
+      "top": 0,
+      "height": 424,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Why banning AI in schools fails students (and what",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 542,
+      "textLeft": 32,
+      "textRight": 542,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame.section-tight",
+      "tag": "div",
+      "top": 424,
+      "height": 2833,
+      "words": 819,
+      "media": 0,
+      "middle": 198,
+      "heading": {
+       "text": "Why is banning AI in schools the wrong call?",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 136,
+      "textLeft": 32,
+      "textRight": 136,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section-tight",
+      "tag": "section",
+      "top": 3257,
+      "height": 583,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quick answers",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 332,
+      "textLeft": 32,
+      "textRight": 332,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 3839,
+      "height": 519,
+      "words": 3,
+      "media": 4,
+      "middle": 580,
+      "heading": {
+       "text": "From the road",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 1248,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 4359,
+      "height": 448,
+      "words": 58,
+      "media": 0,
+      "middle": 224,
+      "heading": {
+       "text": "About the author",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 45,
+      "textLeft": 32,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 4807,
+      "height": 570,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Keep reading",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 931,
+      "textLeft": 32,
+      "textRight": 931,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 5376,
+      "height": 540,
+      "words": 13,
+      "media": 0,
+      "middle": 831,
+      "heading": {
+       "text": "Every post here started as a keynote. Tell me abou",
+       "size": 26,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 911,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 5916,
+      "height": 900,
+      "words": 84,
+      "media": 1,
+      "middle": 115,
+      "heading": {
+       "text": "Speaking",
+       "size": 36,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 34,
+      "textLeft": 835,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "size": 64,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 507,
+      "n": 23
+     },
+     {
+      "x": 32,
+      "n": 8
+     },
+     {
+      "x": 486,
+      "n": 3
+     },
+     {
+      "x": 619,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.15,
+    "voidBox": {
+     "x": 900,
+     "y": 120,
+     "w": 540,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.5,
+    0.51,
+    0.49,
+    0.47,
+    0.9,
+    0.56,
+    0.98,
+    0.98
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 13,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7289,
+     "screens": 7.1,
+     "words": 1111,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "chars": 65,
+     "lines": 2,
+     "size": 42.1,
+     "vw": 5.5,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.81,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "lines": 2,
+     "size": 42.1,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "words": 12,
+      "chars": 65,
+      "lines": 2,
+      "size": 42.1,
+      "vw": 5.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Schools that ban AI are not protecting students. They are sending them into a workforce that has already changed.",
+      "words": 19,
+      "chars": 113,
+      "lines": 2,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 216,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Quick answers",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 3760,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "About the author",
+      "words": 3,
+      "chars": 16,
+      "lines": 3,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 4801,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Keep reading",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5279,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 207.4,
+      "vw": 27,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 6108,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6404,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6452,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6500,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6548,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6596,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 6644,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      29,
+      42,
+      58,
+      207
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17.9,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 207.4,
+      "vw": 27,
+      "font": "Cabinet Grotesk",
+      "text": "Book"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 4317,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      },
+      {
+       "color": "#1b1b1c",
+       "top": 4737,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f5c49",
+       "top": 5651,
+       "hsl": {
+        "h": 161,
+        "s": 0.5,
+        "l": 0.24
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.92
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 2,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7289,
+    "margins": {
+     "left": 17,
+     "right": 18
+    },
+    "sections": [
+     {
+      "sel": "header.frame.pt-[calc(var(--nav-h)+48px)]",
+      "tag": "header",
+      "top": 0,
+      "height": 366,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Why banning AI in schools fails students (and what",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 17,
+      "right": 61,
+      "textLeft": 17,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame.section-tight",
+      "tag": "div",
+      "top": 366,
+      "height": 3330,
+      "words": 819,
+      "media": 0,
+      "middle": 117,
+      "heading": {
+       "text": "Why is banning AI in schools the wrong call?",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 18,
+      "textLeft": 17,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section-tight",
+      "tag": "section",
+      "top": 3696,
+      "height": 526,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quick answers",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 27,
+      "textLeft": 17,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 4222,
+      "height": 515,
+      "words": 3,
+      "media": 4,
+      "middle": 1237,
+      "heading": {
+       "text": "From the road",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 0,
+      "textLeft": 17,
+      "textRight": 609,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 4737,
+      "height": 446,
+      "words": 58,
+      "media": 0,
+      "middle": 156,
+      "heading": {
+       "text": "About the author",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 5183,
+      "height": 468,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Keep reading",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 439,
+      "textLeft": 17,
+      "textRight": 439,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 5651,
+      "height": 614,
+      "words": 13,
+      "media": 0,
+      "middle": 247,
+      "heading": null,
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 312,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 6265,
+      "height": 1024,
+      "words": 84,
+      "media": 1,
+      "middle": 61,
+      "heading": {
+       "text": "Speaking",
+       "size": 29,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 18,
+      "textLeft": 445,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5736,
+      "height": 332
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "size": 42,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 278,
+      "n": 23
+     },
+     {
+      "x": 17,
+      "n": 8
+     },
+     {
+      "x": 259,
+      "n": 3
+     },
+     {
+      "x": 336,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.44,
+    0.48,
+    0.74,
+    0.66,
+    0.63,
+    0.58,
+    0.73,
+    0.93,
+    0.93,
+    0.96
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 13,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7728,
+     "screens": 9.2,
+     "words": 1107,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "chars": 65,
+     "lines": 3,
+     "size": 32,
+     "vw": 8.2,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Why banning AI in schools fails students (and what to do instead)",
+     "words": 12,
+     "lines": 3,
+     "size": 32,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "words": 12,
+      "chars": 65,
+      "lines": 3,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Schools that ban AI are not protecting students. They are sending them into a workforce that has already changed.",
+      "words": 19,
+      "chars": 113,
+      "lines": 4,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 227,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Quick answers",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4305,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "About the author",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5190,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Keep reading",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5708,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 101.4,
+      "vw": 26,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.05,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6305,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6894,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6935,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6977,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7018,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7059,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7101,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      23,
+      32,
+      40,
+      101
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 101.4,
+      "vw": 26,
+      "font": "Cabinet Grotesk",
+      "text": "Book"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 4826,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      },
+      {
+       "color": "#1b1b1c",
+       "top": 5126,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1f5c49",
+       "top": 5994,
+       "hsl": {
+        "h": 161,
+        "s": 0.5,
+        "l": 0.24
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.92
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.06
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#0e0e0e"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": 2,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7728,
+    "margins": {
+     "left": 16,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "header.frame.pt-[calc(var(--nav-h)+48px)]",
+      "tag": "header",
+      "top": 0,
+      "height": 418,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Why banning AI in schools fails students (and what",
+       "size": 32,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 38,
+      "textLeft": 16,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.frame.section-tight",
+      "tag": "div",
+      "top": 418,
+      "height": 3823,
+      "words": 819,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Why is banning AI in schools the wrong call?",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section-tight",
+      "tag": "section",
+      "top": 4241,
+      "height": 494,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quick answers",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 21,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 4734,
+      "height": 391,
+      "words": 3,
+      "media": 4,
+      "middle": 1258,
+      "heading": {
+       "text": "From the road",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 249,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 5126,
+      "height": 487,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "About the author",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 28,
+      "textLeft": 16,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 5612,
+      "height": 381,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Keep reading",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 41,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 5994,
+      "height": 388,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 6382,
+      "height": 1346,
+      "words": 84,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Speaking",
+       "size": 23,
+       "tag": "a"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Why banning AI in schools fails students (and what to do instead)",
+      "size": 32,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 35
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hero-words",
+   "width": 1440,
+   "message": "Hero headline is 12 words (\"Why banning AI in schools fails students (and what to do ins\"). Gallery median is 5.",
+   "fix": "Say the one thing. Move the rest to the supporting line.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 64px (4.4vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 931px of the width empty: \"Keep reading\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 1440,
+   "message": "1 section(s) have content at both edges and 831px of nothing between: \"Every post here started as a keynote. Tell me abou\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"About the author\" → 3 lines (3 words, 57.6px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Why banning AI in schools fails students (and wh\" → 3 lines (12 words, 32px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/desktop-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/desktop-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/tablet-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/tablet-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/mobile-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/mobile-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/inner5/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+---
+import '@/styles/global.css';
+import { SITE } from '@/data/site';
+import Nav from '@/components/Nav.astro';
+import Footer from '@/components/Footer.astro';
+import ogDefault from '@/assets/photos/hero-stage.jpg';
+import { getImage } from 'astro:assets';
+
+interface Props {
+  title: string; description: string; canonical?: string; ogImage?: string; type?: 'website' | 'article' | 'profile';
+  schema?: Record<string, any> | Record<string, any>[]; noindex?: boolean; publishedTime?: string; modifiedTime?: string;
+}
+const { title, description, canonical, ogImage, type = 'website', schema, noindex = false, publishedTime, modifiedTime } = Astro.props;
+const canonicalURL = new URL(canonical ?? Astro.url.pathname, Astro.site);
+const og = await getImage({ src: ogDefault, width: 1200, height: 630, format: 'jpeg', fit: 'cover' });
+const ogURL = new URL(ogImage ?? og.src, Astro.site).href;
+
+const person = {
+  '@type': 'Person', '@id': `${SITE.url}/#person`,
+  name: 'Wil Massara', givenName: 'Wil', familyName: 'Massara',
+  url: SITE.url, image: { '@type': 'ImageObject', url: ogURL, width: 1200, height: 630 },
+  description: SITE.longDescription, email: SITE.email, jobTitle: SITE.jobTitles,
+  nationality: { '@type': 'Country', name: 'Australia' },
+  homeLocation: { '@type': 'Place', name: 'Sydney, Australia' },
+  birthPlace: { '@type': 'Place', name: 'Collie, Western Australia' },
+  sameAs: SITE.sameAs,
+  knowsAbout: ['Youth leadership', 'Gen Z', 'Future of work', 'Education', 'Student leadership', 'Co-design', 'Youth engagement', 'Social enterprise', 'Intergenerational leadership', 'AI in education'],
+  hasOccupation: { '@type': 'Occupation', name: 'Keynote speaker', occupationLocation: { '@type': 'Country', name: 'Australia' } },
+  worksFor: [
+    { '@type': 'Organization', '@id': `${SITE.orgs.tyif.url}/#organization`, name: SITE.orgs.tyif.name, url: SITE.orgs.tyif.url },
+    { '@type': 'Organization', '@id': `${SITE.orgs.ylaa.url}/#organization`, name: SITE.orgs.ylaa.name, url: SITE.orgs.ylaa.url, foundingDate: '2018', founder: { '@id': `${SITE.url}/#person` } },
+  ],
+  award: ['2025 WA Young Achiever of the Year, Community Leadership', '2025 Mission Australia Young Changemaker Award, WA Youth Awards', '2022 Changemaker Entrepreneur of the Year, The Entourage'],
+  alumniOf: { '@type': 'EducationalOrganization', name: 'Australian Institute of Management (MBA)' },
+};
+const website = { '@type': 'WebSite', '@id': `${SITE.url}/#website`, url: SITE.url, name: 'Wil Massara', inLanguage: 'en-AU', publisher: { '@id': `${SITE.url}/#person` } };
+const webpage = { '@type': 'WebPage', '@id': `${canonicalURL.href}#webpage`, url: canonicalURL.href, name: title, description, inLanguage: 'en-AU', isPartOf: { '@id': `${SITE.url}/#website` }, about: { '@id': `${SITE.url}/#person` }, primaryImageOfPage: { '@type': 'ImageObject', url: ogURL } };
+const graph = { '@context': 'https://schema.org', '@graph': [person, website, webpage, ...(schema ? (Array.isArray(schema) ? schema : [schema]) : [])] };
+---
+<!doctype html>
+<html lang="en-AU" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>document.documentElement.classList.replace('no-js','js')</script>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL.href} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <meta name="author" content="Wil Massara" />
+    <meta name="theme-color" content="#a8a8aa" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="alternate" type="application/rss+xml" title="Wil Massara blog" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,800&display=swap" rel="stylesheet" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="Wil Massara" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:image" content={ogURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogURL} />
+    <script type="application/ld+json" set:html={JSON.stringify(graph)} />
+  </head>
+  <body>
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] btn btn-accent">Skip to content</a>
+    <Nav />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <script>
+      import '@/scripts/motion';
+    </script>
+  </body>
+</html>

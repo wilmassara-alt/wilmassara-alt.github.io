@@ -1,0 +1,4462 @@
+{
+ "url": "http://localhost:4321/",
+ "at": "2026-10-24T07:28:29.249Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.96,
+    0.36,
+    0.53,
+    0.99,
+    0.61,
+    0.75,
+    0.93,
+    0.7,
+    0.69,
+    0.54,
+    0.88
+   ],
+   "motion": {
+    "elements": 55,
+    "css": 3,
+    "transitions": 14,
+    "scripted": 38,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 9694,
+     "screens": 10.8,
+     "words": 1301,
+     "img": 6,
+     "video": 2,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "showreel-poster.jpg",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "chars": 65,
+     "lines": 3,
+     "size": 100.8,
+     "vw": 7,
+     "font": "Bricolage Grotesque Variable",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.84,
+     "top": 380,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "lines": 3,
+     "size": 100.8,
+     "font": "Bricolage Grotesque Variable"
+    },
+    "headings": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "words": 10,
+      "chars": 65,
+      "lines": 3,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 380,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A speaker from inside the generation everyone is talking about.",
+      "words": 10,
+      "chars": 63,
+      "lines": 4,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1101,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "65,000+",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 104,
+      "vw": 7.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 1558,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "1,500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 104,
+      "vw": 7.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 1558,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "15",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 104,
+      "vw": 7.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 1558,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "99%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 104,
+      "vw": 7.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 1558,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Picture this. It's 2018, a football clubroom in Perth, sheets over the beer fridges, 65 teenagers in the room.",
+      "words": 19,
+      "chars": 110,
+      "lines": 5,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 2069,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Three keynotes. One workshop. Built from 65,000 conversations.",
+      "words": 8,
+      "chars": 62,
+      "lines": 3,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2934,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lead Before You're Ready",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 3250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gen Z at Work",
+      "words": 4,
+      "chars": 13,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 3250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A Framework to Create Change",
+      "words": 5,
+      "chars": 28,
+      "lines": 3,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 3250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Change Happens Together",
+      "words": 3,
+      "chars": 23,
+      "lines": 3,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 3267,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Four rooms, one message: back people before they have proven themselves.",
+      "words": 11,
+      "chars": 72,
+      "lines": 4,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 4016,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schools and education",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4535,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Corporate and HR",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4535,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Government and councils",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4959,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Conferences and summits",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4959,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Confidence that resonates with people of all ages.",
+      "words": 8,
+      "chars": 50,
+      "lines": 3,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 5380,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5639,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5639,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.01,
+      "top": 5639,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Here's the truth imo.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 6385,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Notes from the road.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 7130,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Why 'leaders of tomorrow' is the most damaging phrase in education",
+      "words": 11,
+      "chars": 66,
+      "lines": 4,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 7293,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Leadership literacy: why leadership should be taught like reading",
+      "words": 9,
+      "chars": 65,
+      "lines": 3,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.25,
+      "top": 7293,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Co-design with young people: a practical guide for schools and councils",
+      "words": 11,
+      "chars": 71,
+      "lines": 4,
+      "size": 33.6,
+      "vw": 2.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 7293,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 7840,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Got a date in mind?",
+      "words": 5,
+      "chars": 19,
+      "lines": 2,
+      "size": 89.3,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 8543,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Young people are leading now. Let's talk about your event.",
+      "words": 10,
+      "chars": 58,
+      "lines": 4,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 9122,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 29,
+     "maxLines": 5,
+     "over2Lines": 12,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque Variable",
+       "share": 0.35,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      24,
+      30,
+      34,
+      58,
+      89,
+      101,
+      104
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 15.7,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.9
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 104,
+      "vw": 7.2,
+      "font": "Bricolage Grotesque Variable",
+      "text": "65,000+"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 17,
+     "microLabelShare": 0.028,
+     "microSamples": [
+      "Keynote speaker · Sydney, Australia · Wo",
+      "Why organisers book Wil",
+      "As seen in",
+      "The short version",
+      "Keynotes and workshops",
+      "Who I speak to"
+     ],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "Why organisers book Wil",
+      "above": "A speaker from inside the generation eve",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 1071
+     },
+     {
+      "text": "The short version",
+      "above": "Picture this. It's 2018, a football club",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 2040
+     },
+     {
+      "text": "Keynotes and workshops",
+      "above": "Three keynotes. One workshop. Built from",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 2904
+     },
+     {
+      "text": "Keynote",
+      "above": "Lead Before You're Ready",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 11.5,
+      "top": 3190
+     },
+     {
+      "text": "Keynote or workshop",
+      "above": "Gen Z at Work",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 11.5,
+      "top": 3190
+     },
+     {
+      "text": "Interactive workshop",
+      "above": "A Framework to Create Change",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 11.5,
+      "top": 3190
+     },
+     {
+      "text": "Keynote or facilitated session",
+      "above": "Change Happens Together",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 11.5,
+      "top": 3190
+     },
+     {
+      "text": "Who I speak to",
+      "above": "Four rooms, one message: back people bef",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 3987
+     },
+     {
+      "text": "What organisers say",
+      "above": "Confidence that resonates with people of",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 5351
+     },
+     {
+      "text": "What I believe",
+      "above": "Here's the truth imo.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 6356
+     },
+     {
+      "text": "From the blog",
+      "above": "Notes from the road.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7101
+     },
+     {
+      "text": "Youth leadership",
+      "above": "Why 'leaders of tomorrow' is the most da",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7264
+     },
+     {
+      "text": "Education",
+      "above": "Leadership literacy: why leadership shou",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7264
+     },
+     {
+      "text": "Co-design",
+      "above": "Co-design with young people: a practical",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7264
+     },
+     {
+      "text": "FAQ",
+      "above": "Questions organisers ask",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7810
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 3194
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 3194
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 3203
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 3194
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4efe6",
+     "bodyBgHsl": {
+      "h": 39,
+      "s": 0.39,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0e0d0b",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#e9e1d2",
+       "top": 2792,
+       "hsl": {
+        "h": 39,
+        "s": 0.34,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#ff4d1c",
+       "top": 8447,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2a2825",
+       "share": 0.39
+      },
+      {
+       "color": "#fbf8f2",
+       "share": 0.31
+      },
+      {
+       "color": "#0e0d0b",
+       "share": 0.19
+      },
+      {
+       "color": "#8f8a80",
+       "share": 0.06
+      },
+      {
+       "color": "#fbf7f1",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff4d1c",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#fbf8f2"
+     },
+     "lowContrast": [
+      {
+       "text": "Keynotes and workshops",
+       "ratio": 2.6,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#e9e1d2"
+      },
+      {
+       "text": "Why organisers book Wil",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "through YLAA programs since 2018",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "across every state and territory",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "first event: 65 students in a football c",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "post-program survey, University of Melbo",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability",
+      "Check availability →",
+      "Watch the reel"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 5,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.4) 50%, oklab(0.159458 0",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)"
+     ],
+     "gradientText": 0,
+     "hairlines": 14,
+     "hairlineSamples": [
+      "div.marquee.border-b 1440px",
+      "div.border-t.pt-5 302px",
+      "div.border-t.pt-5 302px",
+      "div.border-t.pt-5 302px",
+      "div.border-t.pt-5 302px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 18,
+     "boxRadius": 24,
+     "squareMedia": 1,
+     "roundedMedia": 6,
+     "mediaRadius": 24,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1537
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3154
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4303
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5609
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7236
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque variable",
+     "inter variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 9694,
+    "margins": {
+     "left": 68,
+     "right": 68
+    },
+    "sections": [
+     {
+      "sel": "section.relative.min-h-[100svh]",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 60,
+      "media": 1,
+      "middle": 17,
+      "heading": {
+       "text": "Young people aren't",
+       "size": 101,
+       "tag": "h1"
+      },
+      "left": 68,
+      "right": 68,
+      "textLeft": 68,
+      "textRight": 93,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 959,
+      "height": 891,
+      "words": 104,
+      "media": 0,
+      "middle": 35,
+      "heading": {
+       "text": "A speaker from inside the generation everyone is t",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 96,
+      "textLeft": 68,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 1928,
+      "height": 865,
+      "words": 103,
+      "media": 1,
+      "middle": 40,
+      "heading": {
+       "text": "Picture this. It's 2018, a football clubroom in Pe",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 78,
+      "textLeft": 104,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 2792,
+      "height": 1083,
+      "words": 220,
+      "media": 0,
+      "middle": 101,
+      "heading": {
+       "text": "Three keynotes. One workshop. Built from 65,000 co",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 107,
+      "textLeft": 68,
+      "textRight": 107,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 3875,
+      "height": 1364,
+      "words": 97,
+      "media": 4,
+      "middle": 24,
+      "heading": {
+       "text": "Four rooms, one message: back people before they h",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 68,
+      "textLeft": 68,
+      "textRight": 214,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-ink.py-20",
+      "tag": "section",
+      "top": 5239,
+      "height": 1005,
+      "words": 224,
+      "media": 0,
+      "middle": 4312,
+      "heading": {
+       "text": "Confidence that resonates with people of all ages.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -377,
+      "textRight": -4585,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 6244,
+      "height": 745,
+      "words": 129,
+      "media": 1,
+      "middle": 36,
+      "heading": {
+       "text": "Here's the truth imo.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 68,
+      "textLeft": 501,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 6989,
+      "height": 709,
+      "words": 118,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "Notes from the road.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 96,
+      "textLeft": 68,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 7698,
+      "height": 637,
+      "words": 213,
+      "media": 0,
+      "middle": 67,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 266,
+      "textLeft": 68,
+      "textRight": 266,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 8335,
+      "height": 662,
+      "words": 27,
+      "media": 0,
+      "middle": 359,
+      "heading": {
+       "text": "Got a date in mind?",
+       "size": 89,
+       "tag": "h2"
+      },
+      "left": 132,
+      "right": 157,
+      "textLeft": 132,
+      "textRight": 157,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.bg-ink",
+      "tag": "footer",
+      "top": 8997,
+      "height": 697,
+      "words": 100,
+      "media": 0,
+      "middle": 57,
+      "heading": {
+       "text": "Young people are leading now. Let's talk about you",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 68,
+      "right": 68,
+      "textLeft": 68,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 8788,
+      "height": 304
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "size": 101,
+      "top": 380,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 68,
+      "n": 11
+     },
+     {
+      "x": 96,
+      "n": 9
+     },
+     {
+      "x": 529,
+      "n": 8
+     },
+     {
+      "x": 768,
+      "n": 6
+     },
+     {
+      "x": 740,
+      "n": 3
+     },
+     {
+      "x": 981,
+      "n": 3
+     },
+     {
+      "x": 132,
+      "n": 2
+     },
+     {
+      "x": 436,
+      "n": 2
+     },
+     {
+      "x": 1100,
+      "n": 2
+     },
+     {
+      "x": 544,
+      "n": 1
+     },
+     {
+      "x": 714,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 48,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.97,
+    0.37,
+    0.52,
+    0.99,
+    0.63,
+    0.98,
+    0.61,
+    0.76,
+    0.48,
+    0.82,
+    0.91
+   ],
+   "motion": {
+    "elements": 55,
+    "css": 3,
+    "transitions": 14,
+    "scripted": 38,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 10695,
+     "screens": 10.4,
+     "words": 1301,
+     "img": 6,
+     "video": 2,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "showreel-poster.jpg",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "chars": 65,
+     "lines": 3,
+     "size": 53.8,
+     "vw": 7,
+     "font": "Bricolage Grotesque Variable",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.84,
+     "top": 536,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "lines": 3,
+     "size": 53.8,
+     "font": "Bricolage Grotesque Variable"
+    },
+    "headings": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "words": 10,
+      "chars": 65,
+      "lines": 3,
+      "size": 53.8,
+      "vw": 7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 536,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A speaker from inside the generation everyone is talking about.",
+      "words": 10,
+      "chars": 63,
+      "lines": 4,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1225,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "65,000+",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1581,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "1,500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1581,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "15",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1581,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "99%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1581,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Picture this. It's 2018, a football clubroom in Perth, sheets over the beer fridges, 65 teenagers in the room.",
+      "words": 19,
+      "chars": 110,
+      "lines": 6,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2093,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Three keynotes. One workshop. Built from 65,000 conversations.",
+      "words": 8,
+      "chars": 62,
+      "lines": 3,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 3091,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Four rooms, one message: back people before they have proven themselves.",
+      "words": 11,
+      "chars": 72,
+      "lines": 4,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4478,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Confidence that resonates with people of all ages.",
+      "words": 8,
+      "chars": 50,
+      "lines": 3,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 5365,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5548,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5548,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.01,
+      "top": 5548,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Here's the truth imo.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 6714,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Notes from the road.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 7659,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 8459,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Got a date in mind?",
+      "words": 5,
+      "chars": 19,
+      "lines": 2,
+      "size": 47.6,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 9296,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Young people are leading now. Let's talk about your event.",
+      "words": 10,
+      "chars": 58,
+      "lines": 4,
+      "size": 32.3,
+      "vw": 4.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 9824,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 6,
+     "over2Lines": 7,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque Variable",
+       "share": 0.35,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      30,
+      32,
+      48,
+      54,
+      61
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 15.7,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.9
+     },
+     "measureChars": 17,
+     "max": {
+      "size": 61.4,
+      "vw": 8,
+      "font": "Bricolage Grotesque Variable",
+      "text": "65,000+"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 17,
+     "microLabelShare": 0.028,
+     "microSamples": [
+      "Keynote speaker · Sydney, Australia · Wo",
+      "Why organisers book Wil",
+      "As seen in",
+      "The short version",
+      "Keynotes and workshops",
+      "Who I speak to"
+     ],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "Why organisers book Wil",
+      "above": "A speaker from inside the generation eve",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 1195
+     },
+     {
+      "text": "The short version",
+      "above": "Picture this. It's 2018, a football club",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 2064
+     },
+     {
+      "text": "Keynotes and workshops",
+      "above": "Three keynotes. One workshop. Built from",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 3061
+     },
+     {
+      "text": "Who I speak to",
+      "above": "Four rooms, one message: back people bef",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 4449
+     },
+     {
+      "text": "What organisers say",
+      "above": "Confidence that resonates with people of",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 5336
+     },
+     {
+      "text": "What I believe",
+      "above": "Here's the truth imo.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 6685
+     },
+     {
+      "text": "From the blog",
+      "above": "Notes from the road.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 7630
+     },
+     {
+      "text": "FAQ",
+      "above": "Questions organisers ask",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 8430
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 3275
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 3275
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 3757
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 3757
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4efe6",
+     "bodyBgHsl": {
+      "h": 39,
+      "s": 0.39,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0e0d0b",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#e9e1d2",
+       "top": 2949,
+       "hsl": {
+        "h": 39,
+        "s": 0.34,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#ff4d1c",
+       "top": 9200,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2a2825",
+       "share": 0.39
+      },
+      {
+       "color": "#fbf8f2",
+       "share": 0.31
+      },
+      {
+       "color": "#0e0d0b",
+       "share": 0.19
+      },
+      {
+       "color": "#8f8a80",
+       "share": 0.06
+      },
+      {
+       "color": "#fbf7f1",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff4d1c",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#fbf8f2"
+     },
+     "lowContrast": [
+      {
+       "text": "Keynotes and workshops",
+       "ratio": 2.6,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#e9e1d2"
+      },
+      {
+       "text": "Why organisers book Wil",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "through YLAA programs since 2018",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "across every state and territory",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "first event: 65 students in a football c",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "post-program survey, University of Melbo",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability",
+      "Check availability →",
+      "Watch the reel"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 5,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.4) 50%, oklab(0.159458 0",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.marquee.border-b 768px",
+      "div.border-y.py-6 768px",
+      "div.mt-12.border-t 704px",
+      "div.border-y.py-6 704px",
+      "details.faq.group 704px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 18,
+     "boxRadius": 24,
+     "squareMedia": 1,
+     "roundedMedia": 6,
+     "mediaRadius": 24,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1560
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3235
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4663
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5518
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7739
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque variable",
+     "inter variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 10695,
+    "margins": {
+     "left": 32,
+     "right": 34
+    },
+    "sections": [
+     {
+      "sel": "section.relative.min-h-[100svh]",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 60,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 57,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 1083,
+      "height": 791,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "65,000+",
+       "size": 61,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 37,
+      "textLeft": 32,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 1952,
+      "height": 998,
+      "words": 103,
+      "media": 1,
+      "middle": 40,
+      "heading": {
+       "text": "Picture this. It's 2018, a football clubroom in Pe",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 38,
+      "textLeft": 68,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 2949,
+      "height": 1387,
+      "words": 220,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Three keynotes. One workshop. Built from 65,000 co",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 72,
+      "textLeft": 32,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 4337,
+      "height": 887,
+      "words": 97,
+      "media": 4,
+      "middle": 24,
+      "heading": {
+       "text": "Four rooms, one message: back people before they h",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-ink.py-20",
+      "tag": "section",
+      "top": 5224,
+      "height": 1349,
+      "words": 224,
+      "media": 0,
+      "middle": 5034,
+      "heading": {
+       "text": "Confidence that resonates with people of all ages.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -327,
+      "textRight": -5307,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 6573,
+      "height": 945,
+      "words": 129,
+      "media": 1,
+      "middle": 36,
+      "heading": {
+       "text": "Here's the truth imo.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 34,
+      "textLeft": 179,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 7518,
+      "height": 800,
+      "words": 118,
+      "media": 0,
+      "middle": 83,
+      "heading": {
+       "text": "Notes from the road.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 63,
+      "textLeft": 32,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 8318,
+      "height": 771,
+      "words": 213,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 91,
+      "textLeft": 32,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 9088,
+      "height": 610,
+      "words": 27,
+      "media": 0,
+      "middle": 107,
+      "heading": {
+       "text": "Got a date in mind?",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 121,
+      "textLeft": 96,
+      "textRight": 121,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.bg-ink",
+      "tag": "footer",
+      "top": 9699,
+      "height": 996,
+      "words": 100,
+      "media": 0,
+      "middle": 20,
+      "heading": {
+       "text": "Young people are leading now. Let's talk about you",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "size": 54,
+      "top": 536,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 17
+     },
+     {
+      "x": 60,
+      "n": 11
+     },
+     {
+      "x": 432,
+      "n": 8
+     },
+     {
+      "x": 303,
+      "n": 3
+     },
+     {
+      "x": 404,
+      "n": 3
+     },
+     {
+      "x": 545,
+      "n": 3
+     },
+     {
+      "x": 96,
+      "n": 2
+     },
+     {
+      "x": 392,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 48,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.93,
+    0.62,
+    0.55,
+    0.74,
+    0.97,
+    0.97,
+    0.64,
+    0.87,
+    1,
+    0.81,
+    0.68,
+    0.97
+   ],
+   "motion": {
+    "elements": 52,
+    "css": 3,
+    "transitions": 14,
+    "scripted": 35,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13059,
+     "screens": 15.5,
+     "words": 1294,
+     "img": 6,
+     "video": 2,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "showreel-poster.jpg",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "chars": 65,
+     "lines": 6,
+     "size": 43.2,
+     "vw": 11.1,
+     "font": "Bricolage Grotesque Variable",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 203,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+     "words": 10,
+     "lines": 6,
+     "size": 43.2,
+     "font": "Bricolage Grotesque Variable"
+    },
+    "headings": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "words": 10,
+      "chars": 65,
+      "lines": 6,
+      "size": 43.2,
+      "vw": 11.1,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 203,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A speaker from inside the generation everyone is talking about.",
+      "words": 10,
+      "chars": 63,
+      "lines": 4,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1013,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "65,000+",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1420,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "1,500+",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1420,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "15",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1613,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "99%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1613,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Picture this. It's 2018, a football clubroom in Perth, sheets over the beer fridges, 65 teenagers in the room.",
+      "words": 19,
+      "chars": 110,
+      "lines": 5,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2318,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Three keynotes. One workshop. Built from 65,000 conversations.",
+      "words": 8,
+      "chars": 62,
+      "lines": 3,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 3106,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lead Before You're Ready",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3418,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Gen Z at Work",
+      "words": 4,
+      "chars": 13,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 3858,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Change Happens Together",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 4273,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A Framework to Create Change",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 4739,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Four rooms, one message: back people before they have proven themselves.",
+      "words": 11,
+      "chars": 72,
+      "lines": 4,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 5256,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Schools and education",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5441,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Corporate and HR",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5708,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Government and councils",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5950,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Conferences and summits",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 6193,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Confidence that resonates with people of all ages.",
+      "words": 8,
+      "chars": 50,
+      "lines": 3,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 6554,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 6711,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 7188,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 7518,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Here's the truth imo.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8430,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Notes from the road.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 9309,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Why 'leaders of tomorrow' is the most damaging phrase in education",
+      "words": 11,
+      "chars": 66,
+      "lines": 3,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 9529,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Leadership literacy: why leadership should be taught like reading",
+      "words": 9,
+      "chars": 65,
+      "lines": 3,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 9857,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Co-design with young people: a practical guide for schools and councils",
+      "words": 11,
+      "chars": 71,
+      "lines": 3,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10161,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 10549,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What does Wil Massara speak about? +",
+      "words": 7,
+      "chars": 36,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10670,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Who books Wil? +",
+      "words": 4,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10763,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How much does it cost to book Wil Massara? +",
+      "words": 10,
+      "chars": 44,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10832,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Does Wil travel internationally? +",
+      "words": 5,
+      "chars": 34,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10926,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How long is a keynote? +",
+      "words": 6,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10995,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "How do I book? +",
+      "words": 5,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11064,
+      "tag": "summary",
+      "kind": "heading"
+     },
+     {
+      "text": "Got a date in mind?",
+      "words": 5,
+      "chars": 19,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 11356,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Young people are leading now. Let's talk about your event.",
+      "words": 10,
+      "chars": 58,
+      "lines": 4,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Bricolage Grotesque Variable",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 11882,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 35,
+     "maxLines": 6,
+     "over2Lines": 10,
+     "statements": 7,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Variable",
+       "share": 0.65,
+       "mono": false
+      },
+      {
+       "family": "Bricolage Grotesque Variable",
+       "share": 0.35,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      30,
+      38,
+      43,
+      48
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Variable",
+      "size": 15.7,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.9
+     },
+     "measureChars": 32,
+     "max": {
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bricolage Grotesque Variable",
+      "text": "65,000+"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 17,
+     "microLabelShare": 0.028,
+     "microSamples": [
+      "Keynote speaker · Sydney, Australia · Wo",
+      "Why organisers book Wil",
+      "As seen in",
+      "The short version",
+      "Keynotes and workshops",
+      "Who I speak to"
+     ],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 15
+    },
+    "eyebrows": [
+     {
+      "text": "Why organisers book Wil",
+      "above": "A speaker from inside the generation eve",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 983
+     },
+     {
+      "text": "through YLAA programs since 2018",
+      "above": "15",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 1528
+     },
+     {
+      "text": "The short version",
+      "above": "Picture this. It's 2018, a football club",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 2289
+     },
+     {
+      "text": "Keynotes and workshops",
+      "above": "Three keynotes. One workshop. Built from",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 3077
+     },
+     {
+      "text": "Who I speak to",
+      "above": "Four rooms, one message: back people bef",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 5227
+     },
+     {
+      "text": "What organisers say",
+      "above": "Confidence that resonates with people of",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 6525
+     },
+     {
+      "text": "What I believe",
+      "above": "Here's the truth imo.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 8400
+     },
+     {
+      "text": "From the blog",
+      "above": "Notes from the road.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 9280
+     },
+     {
+      "text": "FAQ",
+      "above": "Questions organisers ask",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 10520
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 3362
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 3803
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 4218
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 4684
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4efe6",
+     "bodyBgHsl": {
+      "h": 39,
+      "s": 0.39,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0e0d0b",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#e9e1d2",
+       "top": 2997,
+       "hsl": {
+        "h": 39,
+        "s": 0.34,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#fbf8f2",
+       "top": 3330,
+       "hsl": {
+        "h": 40,
+        "s": 0.53,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ff4d1c",
+       "top": 11272,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.55
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2a2825",
+       "share": 0.39
+      },
+      {
+       "color": "#fbf8f2",
+       "share": 0.31
+      },
+      {
+       "color": "#0e0d0b",
+       "share": 0.19
+      },
+      {
+       "color": "#8f8a80",
+       "share": 0.06
+      },
+      {
+       "color": "#fbf7f1",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#ff4d1c",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#fbf8f2"
+     },
+     "lowContrast": [
+      {
+       "text": "Keynotes and workshops",
+       "ratio": 2.6,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#e9e1d2"
+      },
+      {
+       "text": "Why organisers book Wil",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 11.5,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "through YLAA programs since 2018",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "across every state and territory",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "first event: 65 students in a football c",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      },
+      {
+       "text": "post-program survey, University of Melbo",
+       "ratio": 3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#8f8a80",
+       "bg": "#f4efe6"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability →",
+      "Watch the reel"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 5,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 5,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.4) 50%, oklab(0.159458 0",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+      "div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.marquee.border-b 390px",
+      "div.border-y.py-6 390px",
+      "div.mt-12.border-t 350px",
+      "div.border-y.py-6 350px",
+      "details.faq.group 350px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 1,
+     "roundedBoxes": 18,
+     "boxRadius": 24,
+     "squareMedia": 1,
+     "roundedMedia": 6,
+     "mediaRadius": 24,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1399
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3330
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5418
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 6685
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 9472
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque variable",
+     "inter variable"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 13059,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.relative.min-h-[100svh]",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 60,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Young people aren't",
+       "size": 43,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 34,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 903,
+      "height": 958,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "65,000+",
+       "size": 48,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 1972,
+      "height": 1025,
+      "words": 103,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Picture this. It's 2018, a football clubroom in Pe",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 2997,
+      "height": 2150,
+      "words": 220,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Three keynotes. One workshop. Built from 65,000 co",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 49,
+      "textLeft": 20,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 5147,
+      "height": 1298,
+      "words": 97,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Four rooms, one message: back people before they h",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-ink.py-20",
+      "tag": "section",
+      "top": 6445,
+      "height": 1594,
+      "words": 224,
+      "media": 0,
+      "middle": 5151,
+      "heading": {
+       "text": "Confidence that resonates with people of all ages.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -588,
+      "textRight": -5424,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.grid",
+      "tag": "section",
+      "top": 8039,
+      "height": 1161,
+      "words": 129,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Here's the truth imo.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-paper-deep.py-20",
+      "tag": "section",
+      "top": 9200,
+      "height": 1240,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Notes from the road.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 52,
+      "textLeft": 20,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 10440,
+      "height": 753,
+      "words": 186,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.container-x.py-20",
+      "tag": "section",
+      "top": 11192,
+      "height": 597,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.relative.bg-ink",
+      "tag": "footer",
+      "top": 11789,
+      "height": 1270,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Young people are leading now. Let's talk about you",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 11208,
+      "height": 644
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Young people aren't the leaders of tomorrow. They're leading now.",
+      "size": 43,
+      "top": 203,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 48,
+      "n": 25
+     },
+     {
+      "x": 20,
+      "n": 21
+     }
+    ],
+    "leftBlocks": 46,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "12 headline(s) wrap past two lines at 1440px: \"Young people aren't the leaders of tomorrow. The\" → 3 lines (10 words, 100.8px); \"A speaker from inside the generation everyone is\" → 4 lines (10 words, 57.6px); \"Picture this. It's 2018, a football clubroom in \" → 5 lines (19 words, 57.6px); \"Three keynotes. One workshop. Built from 65,000 \" → 3 lines (8 words, 57.6px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "15 eyebrow/kicker label(s) above headings: \"Why organisers book Wil\" above \"A speaker from inside the generation eve\"; \"The short version\" above \"Picture this. It's 2018, a football club\"; \"Keynotes and workshops\" above \"Three keynotes. One workshop. Built from\"; \"Keynote\" (pill) above \"Lead Before You're Ready\"; \"Keynote or workshop\" (pill) above \"Gen Z at Work\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "17 tiny uppercase letter-spaced labels (e.g. \"Keynote speaker · Sydney, Australia · Wo\", \"Why organisers book Wil\", \"As seen in\", \"The short version\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "5 gradient fill(s): div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.4) 50%, oklab(0.159458 0 | div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0) | div.absolute.inset-0 → linear-gradient(to top, rgb(14, 13, 11) 0%, oklab(0.159458 0.000427693 0.00444486 / 0.3) 50%, rgba(0, 0, 0, 0)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "5 box-shadow(s) on elements at rest: a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | a.card-lift.group → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "14 thin rule(s)/divider line(s): div.marquee.border-b 1440px | div.border-t.pt-5 302px | div.border-t.pt-5 302px | div.border-t.pt-5 302px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "3 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "5 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f4efe6, text #fbf8f2, text #fbf7f1).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Keynotes and workshops\" 2.6:1 needs 4.5:1; \"Why organisers book Wil\" 3:1 needs 4.5:1; \"through YLAA programs since 2018\" 3:1 needs 4.5:1; \"across every state and territory\" 3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "16 different font sizes (12, 14, 15, 16, 17, 18, 19, 20, 21, 24, 30, 34, 58, 89, 101, 104).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15.7px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "15 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 1440,
+   "message": "1 section(s) have content at both edges and 4312px of nothing between: \"Confidence that resonates with people of all ages.\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 11 different lines (68px, 96px, 529px, 768px, 740px, 981px, 132px); the three most used hold only 58% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "7 headline(s) wrap past two lines at 768px: \"Young people aren't the leaders of tomorrow. The\" → 3 lines (10 words, 53.8px); \"A speaker from inside the generation everyone is\" → 4 lines (10 words, 32.3px); \"Picture this. It's 2018, a football clubroom in \" → 6 lines (19 words, 32.3px); \"Three keynotes. One workshop. Built from 65,000 \" → 3 lines (8 words, 32.3px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "10 headline(s) wrap past two lines at 390px: \"Young people aren't the leaders of tomorrow. The\" → 6 lines (10 words, 43.2px); \"A speaker from inside the generation everyone is\" → 4 lines (10 words, 30.4px); \"Picture this. It's 2018, a football clubroom in \" → 5 lines (19 words, 30.4px); \"Three keynotes. One workshop. Built from 65,000 \" → 3 lines (8 words, 30.4px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "1 stretch(es) of the page hold nothing at all: 644px at 11208px (the screen is 844px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/desktop-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/desktop-page-02.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/tablet-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/mobile-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/before/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

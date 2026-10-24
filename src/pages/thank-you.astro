@@ -1,0 +1,13 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+---
+<Base title="Thanks, got it | Wil Massara" description="Your enquiry has been sent to Wil Massara." noindex>
+  <section class="frame flex min-h-[70svh] flex-col justify-center pt-[calc(var(--nav-h)+48px)]" aria-label="Thanks">
+    <h1 class="t-head rise">Got it.</h1>
+    <p class="t-statement mt-8 rise">You'll hear from me within one business day.</p>
+    <p class="t-body mt-5 max-w-[54ch] rise">Your enquiry is in my inbox at hello@wilmassara.com. If it's urgent, reply to the confirmation email or send a LinkedIn message. In the meantime, a few things to read.</p>
+    <ul class="mt-12 grid gap-8 md:grid-cols-3">{posts.map((p) => <li class="rise"><a href={`/blog/${p.id}/`} class="group block"><p class="t-small text-muted">{p.data.category}</p><p class="t-lead mt-1 font-extrabold group-hover:text-accent transition-colors">{p.data.title}</p></a></li>)}</ul>
+  </section>
+</Base>

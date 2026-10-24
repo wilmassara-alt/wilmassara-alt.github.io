@@ -1,0 +1,65 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, GEOS, TALKS, TESTIMONIALS, type Geo } from '@/data/site';
+import FAQ from '@/components/FAQ.astro';
+import BookingForm from '@/components/BookingForm.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+import stage from '@/assets/photos/hero-stage.jpg';
+import auditorium from '@/assets/photos/auditorium.jpg';
+
+export function getStaticPaths() { return GEOS.map((g) => ({ params: { slug: g.slug }, props: { geo: g } })); }
+const { geo } = Astro.props as { geo: Geo };
+const place = geo.place.replace(/^the /, '');
+const url = `${SITE.url}/keynote-speaker/${geo.slug}/`;
+const schema = [
+  { '@type': 'Service', '@id': `${url}#service`, serviceType: 'Keynote speaking', name: `Keynote speaker in ${place}`, provider: { '@id': `${SITE.url}/#person` }, areaServed: { '@type': geo.countryCode === 'AU' ? 'City' : 'Country', name: place }, url, audience: { '@type': 'Audience', audienceType: ['Conference organisers', 'Schools', 'Corporate', 'Government'] } },
+  { '@type': 'FAQPage', mainEntity: geo.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url }, { '@type': 'ListItem', position: 2, name: 'Speaking', item: `${SITE.url}/speaking/` }, { '@type': 'ListItem', position: 3, name: `Keynote speaker ${place}`, item: url }] },
+];
+const nearby = GEOS.filter((g) => geo.nearby.includes(g.slug));
+---
+<Base title={geo.title} description={geo.description} {schema}>
+  <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label={`Keynote speaker in ${place}`}>
+    <div class="md:col-span-7">
+      <h1 class="t-head rise">Keynote speaker, {place}</h1>
+      <p class="t-statement mt-6 rise">{geo.h1.replace(/^Keynote speaker (in|for) [^:]+: /, '').replace(/^\w/, (c) => c.toUpperCase())}.</p>
+      <p class="t-body mt-6 max-w-[56ch] rise">{geo.intro[0]}</p>
+      <div class="mt-8 flex flex-wrap gap-3 rise"><a href="#enquire" class="btn btn-accent">Check {place} availability</a><a href="/speaking/" class="btn btn-ink">See the keynotes</a></div>
+    </div>
+    <div class="pic pic-drift aspect-[4/3] rise md:col-span-5"><Image src={geo.countryCode === 'AU' ? auditorium : stage} alt={`Wil Massara, keynote speaker available in ${place}`} width={1200} class="h-full w-full object-cover" loading="eager" /></div>
+  </section>
+
+  <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="geo-h">
+    <div class="md:col-span-4 md:sticky md:top-24 md:self-start">
+      <h2 id="geo-h" class="t-head rise">Wil in {place}</h2>
+      <p class="t-body mt-6 rise">Based in Sydney, Australia. Keynote, workshop, panel, MC and virtual. Reply within one business day at <a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a>.</p>
+      <p class="t-small mt-6 rise">Also available in {nearby.map((n, i) => <><a href={`/keynote-speaker/${n.slug}/`} class="link">{n.place.replace(/^the /, '')}</a>{i < nearby.length - 1 ? ', ' : ''}</>)}.</p>
+    </div>
+    <div class="prose-wm md:col-span-7 md:col-start-6">
+      {geo.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
+      <ul>{geo.local.map((l) => <li class="rise">{l}</li>)}</ul>
+      <h2 class="rise">Travel and logistics</h2>
+      <p class="rise">{geo.travel}</p>
+      <h2 class="rise">Who books a speaker in {place}</h2>
+      <p class="rise">Conference organisers who need an opening or closing keynote with energy and an argument. School leaders planning a student leadership day or staff professional development. HR and leadership teams working out how to lead Gen Z. Government departments and councils running youth strategy, youth advisory groups or summits. Every booking includes a pre-event call with Wil, not an agent.</p>
+      <h2 class="rise">Keynotes for {place} audiences</h2>
+      <ul>{TALKS.slice(0, 3).map((t) => <li class="rise"><a href={`/speaking/${t.slug}/`}>{t.title}</a>: {t.summary}</li>)}</ul>
+    </div>
+  </section>
+
+  <PhotoStrip set="rooms" title={`Rooms like yours`} />
+  <section class="bg-field text-field-ink" aria-labelledby="say-h">
+    <div class="frame section grid gap-10 md:grid-cols-12">
+      <h2 id="say-h" class="t-head rise md:col-span-4">Organisers say</h2>
+      <div class="space-y-10 md:col-span-8">{TESTIMONIALS.slice(0, 2).map((t) => <figure class="rise"><blockquote class="t-lead font-extrabold max-w-[40ch]">{t.quote}</blockquote><figcaption class="t-small mt-3 text-field-ink/80">{t.name}, {t.role}, {t.org}</figcaption></figure>)}</div>
+    </div>
+  </section>
+  <section class="frame section"><FAQ items={geo.faq} title={`Booking a speaker in ${place}`} /></section>
+  <section id="enquire" class="bg-surface" aria-labelledby="enq-h">
+    <div class="frame section grid gap-12 lg:grid-cols-12">
+      <div class="lg:col-span-4"><h2 id="enq-h" class="t-head rise">Check availability in {place}</h2><p class="t-body mt-5 rise">Tell me the date, the room and what you want them to leave with.</p></div>
+      <div class="lg:col-span-8"><BookingForm compact /></div>
+    </div>
+  </section>
+</Base>

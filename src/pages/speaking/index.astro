@@ -1,0 +1,87 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, TALKS, AUDIENCES, ALSO_SPEAKS_ON, GENERAL_FAQ, TESTIMONIALS } from '@/data/site';
+import CTA from '@/components/CTA.astro';
+import FAQ from '@/components/FAQ.astro';
+import Reel from '@/components/Reel.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+import stage from '@/assets/photos/hero-stage.jpg';
+import heart from '@/assets/photos/stage-heart.jpg';
+import podcast from '@/assets/photos/podcast.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import workshop from '@/assets/photos/workshop.jpg';
+const talkImg: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': classroom, 'a-framework-to-create-change': workshop };
+const title = 'Book Wil Massara | Gen Z & Youth Leadership Keynotes and Workshops';
+const description = 'Keynotes and workshops by Wil Massara: Lead Before You’re Ready, Gen Z at Work, Change Happens Together and the Creating Change workshop. Australia and worldwide.';
+const faq = [
+  { q: 'How long does Wil speak for?', a: 'Keynotes run 30 to 60 minutes. Workshops run 90 minutes to a full day. Panels, fireside chats and MC roles are tailored to the program.' },
+  { q: 'Does Wil tailor every keynote?', a: 'Yes. Every booking starts with a call to understand the audience, the outcome you want and the questions people in the room are already asking. Content, examples and even the title are adjusted.' },
+  { q: 'What audiences does Wil speak to?', a: 'Students from Year 5 to Year 12, teachers and principals, corporate conferences and leadership teams, graduate cohorts, and government, council and youth-sector audiences.' },
+  ...GENERAL_FAQ.filter((f) => /cost|travel|book\?/i.test(f.q)),
+];
+const schema = [
+  { '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url }, { '@type': 'ListItem', position: 2, name: 'Speaking', item: `${SITE.url}/speaking/` }] },
+];
+const process = [['Send the brief', 'Date, location, audience, format and what you want the room to walk out with. Two minutes on the booking form.'], ['Hear back within a day', 'A yes or no on availability, a quote, and a couple of questions.'], ['The call', 'Twenty minutes with Wil to shape the content to your audience. Not an agent. Wil.'], ['The event', 'Wil arrives early, meets the people in the room, delivers, and stays for the conversations afterwards.']];
+---
+<Base {title} {description} {schema}>
+  <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label="Speaking">
+    <div class="md:col-span-7">
+      <h1 class="t-head rise">Keynotes and workshops</h1>
+      <p class="t-statement mt-8 rise">Three keynotes and a workshop on youth leadership, Gen Z at work and co-design, built from 65,000 conversations.</p>
+      <div class="mt-8 flex flex-wrap gap-3 rise"><a href="/book/" class="btn btn-accent">Check availability</a><button type="button" data-reel-open class="btn btn-ink">Watch the reel</button></div>
+    </div>
+    <div class="pic pic-drift aspect-[4/3] rise md:col-span-5"><Image src={stage} alt="Wil Massara on stage delivering a keynote" width={1200} class="h-full w-full object-cover" loading="eager" /></div>
+  </section>
+
+  <section class="frame section" aria-labelledby="talks-h">
+    <h2 id="talks-h" class="t-head rise">The talks</h2>
+    <div class="mt-14 space-y-20">
+      {TALKS.map((t, i) => (
+        <article class:list={['grid gap-8 md:grid-cols-12 md:items-center', i % 2 ? 'md:[&>div:first-child]:col-start-8' : '']}>
+          <div class:list={['pic pic-drift aspect-[4/5] rise md:col-span-5', i % 2 ? 'md:col-start-8 md:row-start-1' : '']}><Image src={talkImg[t.slug]} alt={`Keynote: ${t.title}`} width={900} class="h-full w-full object-cover" /></div>
+          <div class:list={['md:col-span-6', i % 2 ? 'md:col-start-1 md:row-start-1' : 'md:col-start-7']}>
+            <p class="t-small text-muted rise">{t.format}, {t.length}</p>
+            <h3 class="t-lead mt-2 font-extrabold rise" style="font-size: clamp(1.75rem, 1rem + 2.2vw, 2.75rem); line-height: 1.05;">{t.title}</h3>
+            <p class="t-body mt-4 max-w-[52ch] rise">{t.summary}</p>
+            <p class="t-body mt-4 max-w-[52ch] rise"><span class="font-extrabold">Best for:</span> {t.bestFor.join(', ')}.</p>
+            <a href={`/speaking/${t.slug}/`} class="link mt-5 inline-block rise">About this talk</a>
+          </div>
+        </article>
+      ))}
+    </div>
+    <div class="mt-20 grid gap-8 md:grid-cols-12">
+      <h3 class="t-lead font-extrabold rise md:col-span-4">Also speaks on</h3>
+      <ul class="t-body grid gap-2 md:col-span-8 sm:grid-cols-2">{ALSO_SPEAKS_ON.map((s) => <li class="rise">{s}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="bg-surface" aria-labelledby="aud-h">
+    <div class="frame section grid gap-10 md:grid-cols-12">
+      <h2 id="aud-h" class="t-head rise md:col-span-4">Who books Wil</h2>
+      <div class="md:col-span-8">
+        {AUDIENCES.map((a) => <a href={`/speaking/${a.slug}/`} class="group block py-5 rise"><span class="t-lead font-extrabold group-hover:text-accent transition-colors">{a.name}</span><span class="t-body mt-1 block max-w-[60ch]">{a.h1}</span></a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="frame section grid gap-12 md:grid-cols-12 md:items-center" aria-labelledby="how-h">
+    <div class="rise md:col-span-6"><Reel /></div>
+    <div class="md:col-span-5 md:col-start-8">
+      <h2 id="how-h" class="t-head rise">How booking works</h2>
+      <ol class="mt-8 space-y-6">{process.map(([h, p]) => <li class="rise"><p class="t-lead font-extrabold">{h}</p><p class="t-body mt-1">{p}</p></li>)}</ol>
+    </div>
+  </section>
+
+  <PhotoStrip set="rooms" />
+  <section class="bg-field text-field-ink" aria-labelledby="say-h">
+    <div class="frame section grid gap-10 md:grid-cols-12">
+      <h2 id="say-h" class="t-head rise md:col-span-4">Organisers say</h2>
+      <div class="space-y-10 md:col-span-8">{TESTIMONIALS.map((t) => <figure class="rise"><blockquote class="t-lead font-extrabold max-w-[40ch]">{t.quote}</blockquote><figcaption class="t-small mt-3 text-field-ink/80">{t.name}, {t.role}, {t.org}</figcaption></figure>)}</div>
+    </div>
+  </section>
+  <section class="frame section"><FAQ items={faq} /></section>
+  <CTA />
+</Base>

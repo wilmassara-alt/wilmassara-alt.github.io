@@ -1,0 +1,11 @@
+---
+interface Props { word?: string; line?: string; href?: string }
+const { word = 'Book', line = 'Send the brief. You will hear back within one business day.', href = '/book/' } = Astro.props;
+---
+<section aria-label="Book Wil">
+  <a href={href} class="cta-band">
+    <span class="absolute left-[var(--margin)] top-6 max-w-[34ch] t-lead font-medium">{line}</span>
+    <svg class="absolute right-[var(--margin)] top-6 h-8 w-8 md:h-12 md:w-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M10 38L38 10M14 10h24v24"/></svg>
+    <h2 class="cta-word">{word}</h2>
+  </a>
+</section>

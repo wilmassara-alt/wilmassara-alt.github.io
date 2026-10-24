@@ -1,0 +1,63 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import { SITE } from '@/data/site';
+import CTA from '@/components/CTA.astro';
+import FAQ from '@/components/FAQ.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+import headshot from '@/assets/photos/headshot.jpg';
+import auditorium from '@/assets/photos/auditorium.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import workshop from '@/assets/photos/workshop.jpg';
+import podcast from '@/assets/photos/podcast.jpg';
+import stage from '@/assets/photos/hero-stage.jpg';
+const bandFor: Record<string, any> = { 'Gen Z at work': podcast, 'Leadership': stage, 'Education': auditorium, 'Youth leadership': auditorium, 'Co-design': workshop, 'AI in education': classroom };
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const all = (await getCollection('blog', ({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const related = all.filter((p) => p.id !== post.id && p.data.category === post.data.category).slice(0, 2).concat(all.filter((p) => p.id !== post.id && p.data.category !== post.data.category).slice(0, 1)).slice(0, 3);
+const url = `${SITE.url}/blog/${post.id}/`;
+const schema: any[] = [
+  { '@type': 'BlogPosting', '@id': `${url}#article`, headline: post.data.title, description: post.data.description, datePublished: post.data.pubDate.toISOString(), dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(), author: { '@id': `${SITE.url}/#person` }, publisher: { '@id': `${SITE.url}/#person` }, mainEntityOfPage: url, keywords: post.data.tags.join(', '), articleSection: post.data.category, inLanguage: 'en-AU', wordCount: post.body?.split(/\s+/).length },
+  { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url }, { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE.url}/blog/` }, { '@type': 'ListItem', position: 3, name: post.data.title, item: url }] },
+];
+if (post.data.faq?.length) schema.push({ '@type': 'FAQPage', mainEntity: post.data.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+const fmt = (d: Date) => d.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' });
+const h2s = headings.filter((h) => h.depth === 2);
+---
+<Base title={post.data.title.length > 52 ? post.data.title : `${post.data.title} | Wil Massara`} description={post.data.description} {schema} type="article" publishedTime={post.data.pubDate.toISOString()} modifiedTime={(post.data.updatedDate ?? post.data.pubDate).toISOString()}>
+  <article>
+    <header class="frame pt-[calc(var(--nav-h)+48px)]">
+      <h1 class="t-head max-w-[24ch] rise" style="font-size: clamp(1.5rem, 0.6rem + 3.6vw, 4rem)">{post.data.title.replace(/\s*\(.*\)\s*$/, '')}</h1>
+      <p class="t-statement mt-6 rise">{post.data.description}</p>
+      <div class="mt-8 flex items-center gap-4 rise">
+        <div class="pic h-12 w-12 flex-none"><Image src={headshot} alt="Wil Massara" width={96} height={96} class="h-12 w-12 object-cover" /></div>
+        <p class="t-small"><span class="font-extrabold">Wil Massara</span>, <a href="/blog/" class="link">Blog</a>, {post.data.category}, published {fmt(post.data.pubDate)}{post.data.updatedDate && post.data.updatedDate > post.data.pubDate ? `, updated ${fmt(post.data.updatedDate)}` : ''}, {post.data.readingTime} min read</p>
+      </div>
+    </header>
+    <div class="pic mt-10 aspect-[16/6] max-h-[60svh] w-full"><Image src={bandFor[post.data.category] ?? stage} alt={`Wil Massara, ${post.data.category.toLowerCase()} keynote`} width={2000} class="h-full w-full object-cover" loading="eager" /></div>
+    <div class="frame section-tight grid gap-12 md:grid-cols-12">
+      <aside class="md:col-span-3">{h2s.length > 2 && <nav class="md:sticky md:top-24 t-small" aria-label="On this page"><p class="font-extrabold">On this page</p><ul class="mt-3 space-y-2">{h2s.map((h) => <li><a href={`#${h.slug}`} class="link">{h.text}</a></li>)}</ul></nav>}</aside>
+      <div class="prose-wm md:col-span-8 md:col-start-5"><Content /></div>
+    </div>
+    {post.data.faq?.length ? <section class="frame section-tight"><FAQ items={post.data.faq} title="Quick answers" /></section> : null}
+    <PhotoStrip set="story" title="From the road" />
+    <section class="bg-field text-field-ink" aria-labelledby="author-h">
+      <div class="frame section-tight grid gap-8 md:grid-cols-12">
+        <h2 id="author-h" class="t-head rise md:col-span-4">The author</h2>
+        <div class="md:col-span-7 md:col-start-6"><p class="t-lead rise">Wil Massara is a Gen Z keynote speaker on youth leadership, education and the future of work. He founded Youth Leadership Academy Australia at 15; it has reached 65,000+ young people across 1,500+ schools. He is General Manager at The Youth Impact Foundation and co-host of Podclass.</p><div class="mt-6 flex flex-wrap gap-3 rise"><a href="/speaking/" class="btn btn-light">Speaking topics</a><a href={SITE.social.linkedin} target="_blank" rel="noopener me" class="btn btn-accent">Follow on LinkedIn</a></div></div>
+      </div>
+    </section>
+  </article>
+  <section class="frame section" aria-labelledby="more-h">
+    <h2 id="more-h" class="t-head rise">Keep reading</h2>
+    <div class="mt-10 grid gap-10 md:grid-cols-3">{related.map((p) => <a href={`/blog/${p.id}/`} class="group block rise"><p class="t-small text-muted">{p.data.category}</p><h3 class="t-lead mt-2 font-extrabold group-hover:text-accent transition-colors">{p.data.title}</h3><p class="t-small mt-3 text-muted">{p.data.readingTime} min read</p></a>)}</div>
+  </section>
+  <CTA line="Every post here started as a keynote. Tell me about your audience." />
+</Base>

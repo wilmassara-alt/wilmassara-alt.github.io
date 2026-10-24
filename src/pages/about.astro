@@ -1,0 +1,84 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, AWARDS } from '@/data/site';
+import CTA from '@/components/CTA.astro';
+import headshot from '@/assets/photos/headshot.jpg';
+import early from '@/assets/photos/early-days.jpg';
+import team from '@/assets/photos/team-2017.jpg';
+import adventure from '@/assets/photos/adventure.jpg';
+import awards from '@/assets/photos/awards.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import auditorium from '@/assets/photos/auditorium.jpg';
+const title = 'About Wil Massara | Founder of YLAA at 15, Gen Z Keynote Speaker';
+const description = 'Collie-raised, first business at 11, founded Youth Leadership Academy Australia at 15, no ATAR, MBA at 21. The story behind Gen Z keynote speaker Wil Massara.';
+const schema = { '@type': 'ProfilePage', '@id': `${SITE.url}/about/#profilepage`, dateCreated: '2026-10-24', dateModified: new Date().toISOString().slice(0, 10), mainEntity: { '@id': `${SITE.url}/#person` } };
+const timeline = [
+  ['2014', 'Starts Planeapidea, "the Wikipedia of planes", at 11 after a stressful family trip through an airport. By 15 it had media partnerships with Qantas and Singapore Airlines.'],
+  ['2016', 'Attends the Magic Moments Youth Leadership and Business Summit as a participant, sponsored by the Collie Community Bendigo Bank. Nine years later he is its General Manager.'],
+  ['2018', 'Founds Youth Leadership Academy Australia in Year 11 with $80 for the ABN. First event: 65 students from four schools in a football clubroom in Leederville, Perth.'],
+  ['2019', 'The Year 12 results arrive. Empty envelope. No ATAR. YLAA is already reaching thousands of students across the country.'],
+  ['2020', 'Starts an MBA at the Australian Institute of Management, less than 12 months after leaving school. Takes YLAA fully online through the pandemic.'],
+  ['2022', 'Studio 10 interview and a news.com.au story syndicated across 14 mastheads. Signs ICC Sydney for the Sydney conference. The Entourage names him Changemaker Entrepreneur of the Year.'],
+  ['2023', 'Graduates with an MBA at 21. YLAA becomes a social enterprise with 100% of profits funding youth suicide prevention.'],
+  ['2024', 'YLAA joins The Youth Impact Foundation. Wil becomes General Manager, running YLAA and the Magic Moments Youth Leadership and Business Summit. Sydney Young Entrepreneur Awards finalist.'],
+  ['2025', 'Named WA Young Achiever of the Year for Community Leadership and WA Youth Awards Young Changemaker. Selected as one of 50 global changemakers for the Global Changemakers Youth Summit in Cape Town.'],
+  ['2026', 'The national tour reaches 11,500 students from 850 schools across five cities in a month. Lifetime reach passes 65,000 young people and 1,500 schools.'],
+];
+const strip = [[early, 'Wil at an early YLAA event'], [team, 'The first YLAA team in 2017'], [auditorium, 'A full auditorium at a YLAA conference'], [classroom, 'Wil presenting in a regional WA classroom'], [awards, 'Wil speaking at the 2025 WA Young Achiever Awards'], [adventure, 'Wil on a volcano in Guatemala']];
+---
+<Base {title} {description} {schema} type="profile">
+  <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label="About Wil">
+    <div class="md:col-span-7">
+      <h1 class="t-head rise">A kid from a coal town.</h1>
+      <p class="t-statement mt-8 rise">I grew up in Collie, Western Australia. First business at 11, a national youth organisation at 15, no ATAR at 17, an MBA at 21.</p>
+      <p class="t-body mt-6 max-w-[52ch] rise">Now I speak about what that taught me, in rooms from Year 5 assemblies to executive offsites.</p>
+    </div>
+    <div class="pic pic-drift aspect-[4/5] rise md:col-span-4 md:col-start-9"><Image src={headshot} alt="Wil Massara, headshot" width={900} class="h-full w-full object-cover" loading="eager" /></div>
+  </section>
+
+  <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="story-h">
+    <h2 id="story-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">I was never going to wait.</h2>
+    <div class="prose-wm md:col-span-7 md:col-start-6">
+      <p class="rise">Picture this. It's 2018, you're in a football clubroom in Perth, there are big sheets over the fridges hiding the beer, and there are 65 young people in the room. That was the first Youth Leadership Academy Australia event. I was 15 and in Year 11.</p>
+      <p class="rise">I didn't start YLAA because I had a plan. I started it because I'd been to a leadership summit the year before, paid for by my local community bank, and I came home to Collie wondering why the kids at my school never got anything like it. Regional young people were missing out. So I registered an ABN with $80 and asked four schools to send some students.</p>
+      <p class="rise">Two years later the Year 12 results arrived. Empty envelope. No ATAR. My principal had already told me the chance of going to university was very slim. At the same time, YLAA was reaching thousands of students around the country.</p>
+      <p class="rise">That gap, between what the paperwork said about me and what I was actually doing, is the whole reason I speak. Every room I walk into has someone in it who is being judged on the paperwork.</p>
+      <h2 class="rise">What YLAA became</h2>
+      <p class="rise">Today YLAA runs ten events a year across five capital cities, in venues like ICC Sydney and Brisbane City Hall, plus school programs and council partnerships from Broome to Hay. It has reached 65,000+ young people from 1,500+ schools. It is for-youth, by-youth: the facilitators are young people who have walked the same path as the students in the room.</p>
+      <p class="rise">In 2024 YLAA joined The Youth Impact Foundation, a national charity consolidating youth organisations under one roof so more of the money reaches young people. I became General Manager, running YLAA and the Magic Moments Youth Leadership and Business Summit, the same summit that sent me on this path in 2016.</p>
+      <h2 class="rise">The MBA, and why it matters less than you'd think</h2>
+      <p class="rise">Less than a year after leaving school without an ATAR, I enrolled in an MBA. I thought I had bitten off more than I could chew. Thousands of hours of YouTube videos and conversations later, I graduated at 21. No gown or hat in the mail, but I graduated.</p>
+      <p class="rise">I mention it because people like the arc. But the point is not that I got the qualification eventually. The point is that the organisation came first, and the credentials followed. Most systems, schools, workplaces, governments, are built the other way around.</p>
+      <h2 class="rise">What I believe</h2>
+      <p class="rise">Young people lead now, not tomorrow. Leadership is a core skill and should be treated like literacy. Decisions about young people should be made with them, not for them. And the education system is full of people trying their best, so I work with it, not against it.</p>
+      <p class="rise">I also believe schools must embrace AI now. That one gets pushback. I'm fine with that.</p>
+      <blockquote class="rise">Your age does not determine your ability to achieve extraordinary things.</blockquote>
+      <h2 class="rise">Off stage</h2>
+      <p class="rise">I live in Sydney, travel constantly, and have a soft spot for regional and rural Australia. Adventure is a top value: the photo of me on a volcano in Guatemala is not a stock image. I co-host Podclass, a podcast for teachers and educators, and I say "we" when I talk about young people because I am one.</p>
+    </div>
+  </section>
+
+  <section class="overflow-x-auto py-4" aria-label="Photographs">
+    <div class="flex gap-6 px-[var(--margin)]">
+      {strip.map(([img, alt]) => <div class="pic h-[320px] flex-none md:h-[440px]"><Image src={img as any} alt={alt as string} height={880} class="h-full w-auto object-cover" /></div>)}
+    </div>
+  </section>
+
+  <section class="frame section" aria-labelledby="timeline-h">
+    <h2 id="timeline-h" class="t-head rise">From $80 to 65,000</h2>
+    <ol class="mt-14 md:ml-[33%]">
+      {timeline.map(([y, t]) => <li class="grid gap-2 py-5 rise md:grid-cols-[120px_1fr]"><span class="t-lead font-extrabold">{y}</span><p class="t-body max-w-[60ch]">{t}</p></li>)}
+    </ol>
+  </section>
+
+  <section class="bg-field text-field-ink" aria-labelledby="awards-h">
+    <div class="frame section grid gap-12 md:grid-cols-12">
+      <h2 id="awards-h" class="t-head rise md:col-span-5">Recognition</h2>
+      <ul class="md:col-span-7">
+        {AWARDS.map((a) => <li class="py-5 rise"><p class="t-small">{a.year}</p><p class="t-lead font-extrabold">{a.title}</p><p class="t-body text-field-ink/85">{a.by}</p></li>)}
+      </ul>
+    </div>
+  </section>
+  <CTA line="Want this story in your room? Send the brief and hear back within a day." />
+</Base>

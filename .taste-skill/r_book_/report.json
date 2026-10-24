@@ -1,0 +1,1746 @@
+{
+ "url": "http://localhost:4321/book/",
+ "at": "2026-10-24T07:59:50.750Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.68,
+    0.58,
+    0.4,
+    0.95
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 12,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3477,
+     "screens": 3.9,
+     "words": 325,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Book Wil",
+     "words": 2,
+     "chars": 8,
+     "lines": 1,
+     "size": 88,
+     "vw": 6.1,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.3,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Book Wil",
+     "words": 2,
+     "lines": 1,
+     "size": 88,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Send the brief. You will hear back within one business day.",
+      "words": 11,
+      "chars": 59,
+      "lines": 3,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 228,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 1736,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2716,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2772,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2827,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2883,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2939,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2994,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      36,
+      88
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "text": "Book Wil"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 112,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.84
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 2,
+     "height": 34,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3477,
+    "margins": {
+     "left": 32,
+     "right": 68
+    },
+    "sections": [
+     {
+      "sel": "section.frame.grid",
+      "tag": "section",
+      "top": 0,
+      "height": 1059,
+      "words": 101,
+      "media": 0,
+      "middle": 98,
+      "heading": {
+       "text": "Book Wil",
+       "size": 88,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 72,
+      "textLeft": 32,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 1059,
+      "height": 519,
+      "words": 4,
+      "media": 4,
+      "middle": 151,
+      "heading": {
+       "text": "What you are booking",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 1165,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 1578,
+      "height": 999,
+      "words": 224,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 375,
+      "textLeft": 32,
+      "textRight": 375,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 2577,
+      "height": 900,
+      "words": 84,
+      "media": 1,
+      "middle": 115,
+      "heading": {
+       "text": "Speaking",
+       "size": 36,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 34,
+      "textLeft": 835,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Book Wil",
+      "size": 88,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 6
+     },
+     {
+      "x": 486,
+      "n": 6
+     },
+     {
+      "x": 547,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.1,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 540,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.62,
+    0.78,
+    0.66,
+    0.96
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 12,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3776,
+     "screens": 3.7,
+     "words": 325,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Book Wil",
+     "words": 2,
+     "chars": 8,
+     "lines": 1,
+     "size": 57.6,
+     "vw": 7.5,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Book Wil",
+     "words": 2,
+     "lines": 1,
+     "size": 57.6,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Send the brief. You will hear back within one business day.",
+      "words": 11,
+      "chars": 59,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 199,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 2026,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2891,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2939,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 2987,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 3035,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 3083,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 3131,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      29,
+      58
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "text": "Book Wil"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 484,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.84
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 2,
+     "height": 33,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3776,
+    "margins": {
+     "left": 17,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.frame.grid",
+      "tag": "section",
+      "top": 0,
+      "height": 1415,
+      "words": 101,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book Wil",
+       "size": 58,
+       "tag": "h1"
+      },
+      "left": 17,
+      "right": 42,
+      "textLeft": 17,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 1415,
+      "height": 515,
+      "words": 4,
+      "media": 4,
+      "middle": 808,
+      "heading": {
+       "text": "What you are booking",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 0,
+      "textLeft": 17,
+      "textRight": 536,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 1930,
+      "height": 822,
+      "words": 224,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 19,
+      "textLeft": 17,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 2752,
+      "height": 1024,
+      "words": 84,
+      "media": 1,
+      "middle": 61,
+      "heading": {
+       "text": "Speaking",
+       "size": 29,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 18,
+      "textLeft": 445,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Book Wil",
+      "size": 58,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 259,
+      "n": 6
+     },
+     {
+      "x": 17,
+      "n": 4
+     },
+     {
+      "x": 70,
+      "n": 1
+     },
+     {
+      "x": 99,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.5,
+    0.85,
+    0.64,
+    0.6,
+    0.95,
+    0.96
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 12,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4648,
+     "screens": 5.5,
+     "words": 321,
+     "img": 4,
+     "video": 1,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Book Wil",
+     "words": 2,
+     "chars": 8,
+     "lines": 1,
+     "size": 40,
+     "vw": 10.3,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Book Wil",
+     "words": 2,
+     "lines": 1,
+     "size": 40,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Send the brief. You will hear back within one business day.",
+      "words": 11,
+      "chars": 59,
+      "lines": 2,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 182,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2579,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3814,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3855,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3897,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3938,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3979,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4021,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      23,
+      40
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "text": "Book Wil"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 557,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.85
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.15
+      },
+      {
+       "color": "#ffffff",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 2,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4648,
+    "margins": {
+     "left": 16,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "div.lg:col-span-4",
+      "tag": "div",
+      "top": 112,
+      "height": 397,
+      "words": 55,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Send the brief. You will hear back within one busi",
+       "size": 23,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 31,
+      "textLeft": 16,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-surface.p-6",
+      "tag": "div",
+      "top": 557,
+      "height": 1535,
+      "words": 44,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 2092,
+      "height": 391,
+      "words": 4,
+      "media": 4,
+      "middle": 706,
+      "heading": {
+       "text": "What you are booking",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 183,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 2483,
+      "height": 818,
+      "words": 197,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 3302,
+      "height": 1346,
+      "words": 84,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Speaking",
+       "size": 23,
+       "tag": "a"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Book Wil",
+      "size": 40,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 12
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 32px on the left, 68px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/desktop-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/tablet-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/mobile-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_book_/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

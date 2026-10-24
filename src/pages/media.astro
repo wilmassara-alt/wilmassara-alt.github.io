@@ -1,0 +1,77 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, AWARDS, MEDIA_LOGOS } from '@/data/site';
+import CTA from '@/components/CTA.astro';
+import headshot from '@/assets/photos/headshot.jpg';
+import stage from '@/assets/photos/hero-stage.jpg';
+import heart from '@/assets/photos/stage-heart.jpg';
+import podcast from '@/assets/photos/podcast.jpg';
+const title = 'Media Kit | Bios, Headshots, Intro and Press for Wil Massara';
+const description = 'Approved bios, downloadable headshots, a stage introduction, technical notes and press coverage for Gen Z keynote speaker Wil Massara.';
+const press = [
+  { outlet: 'South Western Times', date: 'July 2025', title: 'Bunbury boy Wil Massara honoured for shaping young minds into future leaders', url: 'https://www.swtimes.com.au/news/south-western-times/bunbury-boy-wil-massara-honoured-for-shaping-young-minds-into-future-leaders--c-19214073' },
+  { outlet: 'Awards Australia', date: 'June 2025', title: '2025 7NEWS Young Achiever Awards WA: Catholic Education WA Young Leadership Award', url: 'https://awardsaustralia.com/young-achiever-awards/wa/previous-winners/' },
+  { outlet: 'YACWA', date: 'September 2025', title: 'WA Youth Awards 2025: Mission Australia Young Changemaker Award', url: 'https://www.yacwa.org.au/wa-youth-awards-2025/2025-winners/' },
+  { outlet: 'The Educator', date: 'October 2023', title: 'How leadership skills can help kids thrive in life', url: 'https://www.theeducatoronline.com/k12/news/how-leadership-skills-can-help-kids-thrive-in-life/283549' },
+  { outlet: 'news.com.au', date: '2022', title: '20yo business owner to hit $1 million revenue after quiet quitting school', url: 'https://www.news.com.au/finance/work/at-work/20yo-business-owner-to-hit-1-million-revenue-after-quiet-quitting-school/news-story/6fdd3f65f042fff5c4d22b36f1fd3ee1' },
+  { outlet: 'Studio 10', date: 'September 2022', title: 'Wil Massara shares YLAA’s impact over income mission', url: 'https://www.ylaaus.com/resources/studio-10-interview-wil-massara-young-people-are-changing-the-world' },
+  { outlet: 'Business News Australia', date: '2024', title: 'Sydney Young Entrepreneur Awards finalists', url: 'https://www.businessnewsaustralia.com/articles/sydney-young-entrepreneur-awards--celebrating-the-city-s-boldest-innovators.html' },
+  { outlet: 'South Western Times', date: 'October 2017', title: 'Meet Wil Massara, a youth on a mission', url: 'https://swtimes.com.au/news/south-western-times/meet-wil-massara-a-youth-on-a-mission-ng-b88613707z' },
+];
+const bios = {
+  Short: 'Wil Massara is a Gen Z keynote speaker on youth leadership, education and the future of work. He founded Youth Leadership Academy Australia at 15; it has reached 65,000+ young people across 1,500+ schools. He is General Manager at The Youth Impact Foundation and the 2025 WA Young Achiever of the Year for Community Leadership.',
+  Medium: 'Wil Massara founded Youth Leadership Academy Australia at 15. By the time he received his Year 12 results, an empty envelope with no ATAR, the organisation was already reaching thousands of young people across the country. Today YLAA has supported over 65,000 young people across 1,500+ schools nationally. Wil went on to complete an MBA at 21, was named 2025 WA Young Achiever of the Year in Community Leadership, and was selected as one of 50 global changemakers for his approach to problem-solving and design thinking. As General Manager at The Youth Impact Foundation he leads YLAA and the Magic Moments Youth Leadership and Business Summit, co-hosts the Podclass podcast, and speaks to schools, conferences, corporate and government audiences in Australia and around the world.',
+  Long: 'Wil Massara grew up in Collie, a coal mining town in regional Western Australia, and started his first business at 11: an aviation website that by 15 had media partnerships with Qantas and Singapore Airlines. In 2018, in Year 11, he founded Youth Leadership Academy Australia with $80 for the ABN and 65 students in a football clubroom in Leederville, Perth. By the time his Year 12 results arrived, an empty envelope with no ATAR, YLAA was already reaching thousands of students nationally. Today YLAA runs ten events a year across five capital cities, in venues from ICC Sydney to Brisbane City Hall, and has reached 65,000+ young people across 1,500+ schools. Less than a year after leaving school, Wil enrolled in an MBA and graduated at 21. In 2024 YLAA joined The Youth Impact Foundation, where Wil is General Manager, leading YLAA and the Magic Moments Youth Leadership and Business Summit. Alongside building YLAA, Wil has worked with state and federal government departments, education systems and councils across Australia, consulting on youth engagement strategy and co-designing policy that reflects the people it serves. He was named 2025 WA Young Achiever of the Year in Community Leadership, received the 2025 Mission Australia Young Changemaker Award at the WA Youth Awards, and was selected as one of 50 global changemakers for the Global Changemakers Youth Summit. He co-hosts Podclass, a podcast for educators, and has appeared on Studio 10, news.com.au and mastheads across Australia and New Zealand. His work is built on a firm belief that the best outcomes in schools, workplaces and communities come from intergenerational collaboration: young people and experienced leaders working together, not in parallel.',
+};
+const intro = 'Our next speaker founded a national youth organisation at 15, got no ATAR at 17, and finished an MBA at 21. Youth Leadership Academy Australia has now reached 65,000 young people across 1,500 schools, and he still gets on stage at every one of its events. He is the 2025 WA Young Achiever of the Year for Community Leadership, General Manager at The Youth Impact Foundation, and someone who says "we" when he talks about young people because he is one. Please welcome Wil Massara.';
+const photos = [[headshot, 'Headshot, portrait'], [stage, 'On stage, landscape'], [heart, 'On stage, portrait'], [podcast, 'Podcast studio, landscape']];
+---
+<Base {title} {description}>
+  <section class="frame pt-[calc(var(--nav-h)+48px)]" aria-label="Media kit">
+    <h1 class="t-head rise">Media kit</h1>
+    <p class="t-statement mt-8 rise">Approved bios, headshots, a stage introduction, technical notes and press. Copy and paste freely.</p>
+    <p class="t-body mt-5 rise">Interviews and media requests: <a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a>.</p>
+  </section>
+
+  <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="bios-h">
+    <div class="md:col-span-4 md:sticky md:top-24 md:self-start"><h2 id="bios-h" class="t-head rise">Bios</h2><p class="t-body mt-5 rise">Canonical numbers: 65,000+ young people, 1,500+ schools. Founded YLAA at 15 in 2018.</p></div>
+    <div class="space-y-12 md:col-span-7 md:col-start-6">
+      {Object.entries(bios).map(([k, v]) => <div class="rise"><div class="flex items-baseline justify-between gap-6"><h3 class="t-lead font-extrabold">{k} bio, {v.split(' ').length} words</h3><button type="button" class="copy-btn link t-small" data-copy={v}>Copy</button></div><p class="t-body mt-3 max-w-[66ch]">{v}</p></div>)}
+      <div class="bg-field p-8 text-field-ink rise"><div class="flex items-baseline justify-between gap-6"><h3 class="t-lead font-extrabold">Stage introduction, 35 seconds</h3><button type="button" class="copy-btn link t-small" data-copy={intro}>Copy</button></div><p class="t-body mt-3">{intro}</p></div>
+    </div>
+  </section>
+
+  <section class="bg-surface" aria-labelledby="photos-h">
+    <div class="frame section">
+      <h2 id="photos-h" class="t-head rise">Headshots and stage photos</h2>
+      <p class="t-body mt-5 max-w-[60ch] rise">Open a photo, then save it. Credit not required. Please do not crop the stage photos into squares.</p>
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {photos.map(([img, label]) => <a href={(img as any).src} target="_blank" rel="noopener" class="group block rise"><div class="pic pic-drift aspect-[4/5]"><Image src={img as any} alt={`Wil Massara, ${label}`} width={800} class="h-full w-full object-cover" /></div><p class="t-body mt-3 font-medium group-hover:text-accent transition-colors">{label}</p></a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="tech-h">
+    <div class="md:col-span-6">
+      <h2 id="tech-h" class="t-head rise">On the day</h2>
+      <ul class="t-body mt-8 max-w-[52ch] list-disc space-y-2 pl-5">{['Lapel or headset microphone (handheld is fine for Q&A)', 'Clicker and a screen for slides (16:9, Keynote or PDF supplied in advance)', 'Confidence monitor if available, not essential', 'Ten minutes with the AV team before doors open', 'A pre-event call with the organiser, 20 minutes, two to four weeks out', 'Wil arrives at least 45 minutes early and stays for conversations afterwards'].map((t) => <li class="rise">{t}</li>)}</ul>
+    </div>
+    <div class="md:col-span-5 md:col-start-8">
+      <h2 class="t-head rise">Awards</h2>
+      <ul class="mt-8">{AWARDS.map((a) => <li class="py-3 rise"><p class="t-small">{a.year}</p><p class="t-body font-extrabold">{a.title}</p><p class="t-body text-muted">{a.by}</p></li>)}</ul>
+    </div>
+  </section>
+
+  <section class="bg-field text-field-ink" aria-labelledby="press-h">
+    <div class="frame section">
+      <h2 id="press-h" class="t-head rise">In the media</h2>
+      <p class="t-body mt-5 max-w-[60ch] rise">Coverage includes {MEDIA_LOGOS.join(', ')}.</p>
+      <ul class="mt-12">{press.map((p) => <li class="grid gap-1 py-5 rise md:grid-cols-[220px_1fr]"><span class="t-small">{p.outlet}, {p.date}</span><a href={p.url} target="_blank" rel="noopener" class="t-lead font-extrabold hover:text-surface transition-colors">{p.title}</a></li>)}</ul>
+    </div>
+  </section>
+  <CTA line="Interview, photo or custom bio requests: send them through and hear back within a day." word="Ask" />
+  <script>
+    document.querySelectorAll<HTMLButtonElement>('.copy-btn').forEach((b) => b.addEventListener('click', async () => { await navigator.clipboard.writeText(b.dataset.copy || ''); const t = b.textContent; b.textContent = 'Copied'; setTimeout(() => (b.textContent = t), 1500); }));
+  </script>
+</Base>

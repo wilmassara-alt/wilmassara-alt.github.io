@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import auditorium from '@/assets/photos/auditorium.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import early from '@/assets/photos/early-days.jpg';
+import heart from '@/assets/photos/stage-heart.jpg';
+import awards from '@/assets/photos/awards.jpg';
+import workshop from '@/assets/photos/workshop.jpg';
+interface Props { set?: 'stage' | 'rooms' | 'story'; title?: string }
+const { set = 'stage', title = 'In the room' } = Astro.props;
+const sets = {
+  stage: [[auditorium, 'A full auditorium at a YLAA conference, "Hello, my name is Wil" on the screens'], [heart, 'Wil Massara on stage, hand on heart'], [awards, 'Wil speaking at the 2025 WA Young Achiever Awards']],
+  rooms: [[classroom, 'Wil presenting in a regional WA classroom'], [workshop, 'A workshop in progress'], [auditorium, 'A full auditorium at a YLAA conference']],
+  story: [[early, 'An early YLAA event in a school gym'], [classroom, 'Wil in a regional classroom'], [heart, 'Wil on stage']],
+};
+const pics = sets[set];
+---
+<section class="py-10" aria-label={title}>
+  <div class="frame"><h2 class="t-lead font-extrabold rise">{title}</h2></div>
+  <div class="mt-6 flex gap-6 overflow-x-auto px-[var(--margin)]">
+    <div class="pic h-[260px] flex-none md:h-[380px]"><video class="h-full w-auto" autoplay muted loop playsinline poster="/media/showreel-poster.jpg" aria-label="Wil Massara on stage, muted highlights"><source src="/media/hero-loop.mp4" type="video/mp4" /></video></div>
+    {pics.map(([img, alt]) => <div class="pic pic-drift h-[260px] flex-none md:h-[380px]"><Image src={img as any} alt={alt as string} height={760} class="h-full w-auto object-cover" /></div>)}
+  </div>
+</section>

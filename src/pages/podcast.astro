@@ -1,0 +1,27 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE } from '@/data/site';
+import CTA from '@/components/CTA.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+import podcast from '@/assets/photos/podcast.jpg';
+const title = 'Podclass Podcast | Conversations Beyond the Lesson Plan';
+const description = 'Podclass is a weekly podcast for teachers and school leaders co-hosted by Wil Massara: Gen Z perspectives, leadership, wellbeing and what is really happening in classrooms.';
+const schema = { '@type': 'PodcastSeries', name: 'Podclass', url: SITE.orgs.podclass.url, description, author: [{ '@id': `${SITE.url}/#person` }], webFeed: SITE.orgs.podclass.url };
+---
+<Base {title} {description} {schema}>
+  <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label="Podclass">
+    <div class="md:col-span-7">
+      <h1 class="t-head rise">Podclass</h1>
+      <p class="t-statement mt-8 rise">Conversations beyond the lesson plan. A weekly podcast for teachers and school leaders.</p>
+      <p class="t-body mt-6 max-w-[56ch] rise">Co-hosted with Amanda Marshall and Skye Hughes from the Youth Engagement Project: Gen Z perspectives, leadership as a core skill, wellbeing, AI in schools, and what is actually happening in classrooms right now.</p>
+      <div class="mt-8 flex flex-wrap gap-3 rise"><a href={SITE.orgs.podclass.url} target="_blank" rel="noopener" class="btn btn-accent">Listen on Spotify</a><a href="https://www.ylaaus.com/podclass" target="_blank" rel="noopener" class="btn btn-ink">Podclass on YLAA</a></div>
+    </div>
+    <div class="pic pic-drift aspect-[4/3] rise md:col-span-5"><Image src={podcast} alt="Wil Massara recording Podclass" width={1200} class="h-full w-full object-cover" loading="eager" /></div>
+  </section>
+  <section class="frame section grid gap-12 md:grid-cols-3" aria-label="About the podcast">
+    {[['Who it is for', 'Teachers, heads of wellbeing, deputies and principals who want a straight read on what students are thinking, from people who work with tens of thousands of them.'], ['What we cover', 'Student leadership, Gen Z and motivation, co-design and student voice, AI in schools, the brain science behind confidence, and the practical stuff nobody put in the lesson plan.'], ['Guest requests', 'Educators, researchers and young leaders with a point of view. Email hello@wilmassara.com with the topic in the subject line.']].map(([h, p]) => <div class="rise"><h2 class="t-lead font-extrabold">{h}</h2><p class="t-body mt-3">{p}</p></div>)}
+  </section>
+  <PhotoStrip set="story" title="Where the conversations come from" />
+  <CTA line="Want Wil on your podcast or panel? Send the topic and timing." word="Ask" />
+</Base>

@@ -1,0 +1,27 @@
+---
+import Base from '@/layouts/Base.astro';
+import { SITE, GENERAL_FAQ } from '@/data/site';
+import BookingForm from '@/components/BookingForm.astro';
+import FAQ from '@/components/FAQ.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+const title = 'Book Wil Massara | Check Availability for Keynotes and Workshops';
+const description = 'Check Wil Massara’s availability for your conference, school, corporate or government event. Reply within one business day. Sydney-based, available worldwide.';
+const schema = { '@type': 'ContactPage', '@id': `${SITE.url}/book/#contact`, mainEntity: { '@id': `${SITE.url}/#person` } };
+---
+<Base {title} {description} {schema}>
+  <section class="frame grid gap-12 pt-[calc(var(--nav-h)+48px)] lg:grid-cols-12" aria-label="Book Wil">
+    <div class="lg:col-span-4">
+      <h1 class="t-head rise">Book Wil</h1>
+      <p class="t-statement mt-8 rise">Send the brief. You will hear back within one business day.</p>
+      <div class="t-body mt-8 space-y-3 rise">
+        <p><span class="font-extrabold">Email:</span> <a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a></p>
+        <p><span class="font-extrabold">Based:</span> Sydney, Australia. Available worldwide, in person and virtually.</p>
+        <p><span class="font-extrabold">Lead time:</span> three to six months is typical. Short notice is sometimes possible, so ask.</p>
+        <p><span class="font-extrabold">Not an event?</span> Media, podcast, partnership and consulting enquiries are welcome through the same form.</p>
+      </div>
+    </div>
+    <div class="bg-surface p-6 rise md:p-10 lg:col-span-8"><BookingForm /></div>
+  </section>
+  <PhotoStrip set="stage" title="What you are booking" />
+  <section class="frame section"><FAQ items={GENERAL_FAQ} /></section>
+</Base>

@@ -1,0 +1,2204 @@
+{
+ "url": "http://localhost:4321/speaking/gen-z-workplace-speaker/",
+ "at": "2026-10-24T07:58:53.427Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.42,
+    0.28,
+    0.36,
+    0.88,
+    0.95,
+    0.95,
+    0.95
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 0,
+    "transitions": 4,
+    "scripted": 26,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5747,
+     "screens": 6.4,
+     "words": 593,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "chars": 22,
+     "lines": 2,
+     "size": 88,
+     "vw": 6.1,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.55,
+     "top": 158,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "lines": 2,
+     "size": 88,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Gen Z in the workplace",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 158,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Gen Z in the workplace speaker for staff conferences and leadership teams",
+      "words": 12,
+      "chars": 73,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 349,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What you get",
+      "words": 3,
+      "chars": 12,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 811,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 1856,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Organisers say",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3157,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Check availability",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 3928,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4987,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5042,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5098,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5153,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5209,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5265,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      36,
+      88
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "text": "Gen Z in the workplace"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#1b1b1c",
+       "top": 2998,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#b4b4b6",
+       "top": 3769,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.68
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.23
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.09
+      },
+      {
+       "color": "#a8a8aa",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 2,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability",
+      "Check availability",
+      "All topics"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5747,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.frame.grid",
+      "tag": "section",
+      "top": 0,
+      "height": 652,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Gen Z in the workplace",
+       "size": 88,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 752,
+      "textLeft": 32,
+      "textRight": 752,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 652,
+      "height": 1045,
+      "words": 172,
+      "media": 0,
+      "middle": 328,
+      "heading": {
+       "text": "What you get",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 42,
+      "textLeft": 32,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 1698,
+      "height": 781,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 123,
+      "textLeft": 32,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 2479,
+      "height": 519,
+      "words": 3,
+      "media": 4,
+      "middle": 468,
+      "heading": {
+       "text": "In the room",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 1279,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 2998,
+      "height": 771,
+      "words": 104,
+      "media": 0,
+      "middle": 63,
+      "heading": {
+       "text": "Organisers say",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 279,
+      "textLeft": 32,
+      "textRight": 279,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquire.bg-surface",
+      "tag": "section",
+      "top": 3769,
+      "height": 1078,
+      "words": 50,
+      "media": 0,
+      "middle": 72,
+      "heading": {
+       "text": "Check availability",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 4847,
+      "height": 900,
+      "words": 84,
+      "media": 1,
+      "middle": 115,
+      "heading": {
+       "text": "Speaking",
+       "size": 36,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 34,
+      "textLeft": 835,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3612,
+      "height": 304
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Gen Z in the workplace",
+      "size": 88,
+      "top": 158,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 9
+     },
+     {
+      "x": 486,
+      "n": 3
+     },
+     {
+      "x": 504,
+      "n": 3
+     },
+     {
+      "x": 625,
+      "n": 2
+     },
+     {
+      "x": 657,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 720,
+     "y": 120,
+     "w": 240,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.44,
+    0.24,
+    0.8,
+    0.98,
+    0.96,
+    0.96
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 0,
+    "transitions": 4,
+    "scripted": 26,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5712,
+     "screens": 5.6,
+     "words": 593,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "chars": 22,
+     "lines": 2,
+     "size": 57.6,
+     "vw": 7.5,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.54,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "lines": 2,
+     "size": 57.6,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Gen Z in the workplace",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Gen Z in the workplace speaker for staff conferences and leadership teams",
+      "words": 12,
+      "chars": 73,
+      "lines": 3,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 245,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What you get",
+      "words": 3,
+      "chars": 12,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 709,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 1867,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Organisers say",
+      "words": 2,
+      "chars": 14,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 2998,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Check availability",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3694,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4827,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4875,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4923,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 4971,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5019,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 29.1,
+      "vw": 3.8,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 5067,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      29,
+      58
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "text": "Gen Z in the workplace"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 2482,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      },
+      {
+       "color": "#1b1b1c",
+       "top": 2902,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.68
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.23
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.09
+      },
+      {
+       "color": "#a8a8aa",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": 2,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability",
+      "Check availability",
+      "All topics"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5712,
+    "margins": {
+     "left": 17,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.frame.grid",
+      "tag": "section",
+      "top": 0,
+      "height": 613,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Gen Z in the workplace",
+       "size": 58,
+       "tag": "h1"
+      },
+      "left": 17,
+      "right": 342,
+      "textLeft": 17,
+      "textRight": 342,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 613,
+      "height": 1157,
+      "words": 172,
+      "media": 0,
+      "middle": 152,
+      "heading": {
+       "text": "What you get",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 21,
+      "textLeft": 17,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 1771,
+      "height": 616,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 23,
+      "textLeft": 17,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 2387,
+      "height": 515,
+      "words": 3,
+      "media": 4,
+      "middle": 1125,
+      "heading": {
+       "text": "In the room",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 0,
+      "textLeft": 17,
+      "textRight": 637,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 2902,
+      "height": 697,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Organisers say",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquire.bg-surface",
+      "tag": "section",
+      "top": 3598,
+      "height": 1090,
+      "words": 50,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Check availability",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 4688,
+      "height": 1024,
+      "words": 84,
+      "media": 1,
+      "middle": 61,
+      "heading": {
+       "text": "Speaking",
+       "size": 29,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 18,
+      "textLeft": 445,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Gen Z in the workplace",
+      "size": 58,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 17,
+      "n": 9
+     },
+     {
+      "x": 259,
+      "n": 3
+     },
+     {
+      "x": 275,
+      "n": 2
+     },
+     {
+      "x": 343,
+      "n": 2
+     },
+     {
+      "x": 375,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.55,
+    0.57,
+    0.39,
+    0.7,
+    0.98,
+    0.97,
+    0.93,
+    0.93,
+    0.96
+   ],
+   "motion": {
+    "elements": 30,
+    "css": 0,
+    "transitions": 4,
+    "scripted": 26,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7066,
+     "screens": 8.4,
+     "words": 589,
+     "img": 5,
+     "video": 1,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F",
+      "?href=%2F%40fs%2FUsers%2Fwilmassara%2FDesktop%2F"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "chars": 22,
+     "lines": 2,
+     "size": 40,
+     "vw": 10.3,
+     "font": "Cabinet Grotesk",
+     "weight": 800,
+     "tracking": -0.035,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gen Z in the workplace",
+     "words": 5,
+     "lines": 2,
+     "size": 40,
+     "font": "Cabinet Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Gen Z in the workplace",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Gen Z in the workplace speaker for staff conferences and leadership teams",
+      "words": 12,
+      "chars": 73,
+      "lines": 3,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 500,
+      "tracking": -0.015,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 212,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "What you get",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1132,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions organisers ask",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2368,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Organisers say",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3405,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Check availability",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4178,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Speaking",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6232,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "About",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6273,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blog",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6314,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Media kit",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6356,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Podclass",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6397,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Book Wil",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6438,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Cabinet Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      23,
+      40
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Cabinet Grotesk",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.1
+     },
+     "measureChars": 35,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Cabinet Grotesk",
+      "text": "Gen Z in the workplace"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#a8a8aa",
+     "bodyBgHsl": {
+      "h": 240,
+      "s": 0.01,
+      "l": 0.66
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b4b4b6",
+       "top": 589,
+       "hsl": {
+        "h": 240,
+        "s": 0.01,
+        "l": 0.71
+       }
+      },
+      {
+       "color": "#1b1b1c",
+       "top": 3309,
+       "hsl": {
+        "h": 240,
+        "s": 0.02,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.68
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.22
+      },
+      {
+       "color": "#3a3a3c",
+       "share": 0.09
+      },
+      {
+       "color": "#a8a8aa",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 2,
+     "height": 45,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Check availability",
+      "All topics"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.31
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cabinet grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7066,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.frame.grid",
+      "tag": "section",
+      "top": 0,
+      "height": 1036,
+      "words": 69,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Gen Z in the workplace",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 9,
+      "right": 9,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 1036,
+      "height": 1236,
+      "words": 172,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "What you get",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.frame.section",
+      "tag": "section",
+      "top": 2272,
+      "height": 646,
+      "words": 102,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions organisers ask",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 24,
+      "textLeft": 16,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.py-10",
+      "tag": "section",
+      "top": 2918,
+      "height": 391,
+      "words": 3,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "In the room",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 273,
+      "textLeft": 16,
+      "textRight": 273,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-field.text-field-ink",
+      "tag": "section",
+      "top": 3309,
+      "height": 773,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Organisers say",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 20,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#enquire.bg-surface",
+      "tag": "section",
+      "top": 4082,
+      "height": 1637,
+      "words": 50,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Check availability",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.grid.md:min-h-[100svh]",
+      "tag": "footer",
+      "top": 5719,
+      "height": 1346,
+      "words": 84,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Speaking",
+       "size": 23,
+       "tag": "a"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Gen Z in the workplace",
+      "size": 40,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 16
+     },
+     {
+      "x": 48,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/desktop-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/desktop-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/tablet-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/mobile-fold.jpg",
+   "pages": [
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/mobile-page-01.jpg",
+    "/Users/wilmassara/Desktop/WM/wilmassara-site/.taste-skill/r_speaking_gen-z-workplace-speaker_/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

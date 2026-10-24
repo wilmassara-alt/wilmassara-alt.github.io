@@ -1,0 +1,96 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, TALKS, AUDIENCES, TESTIMONIALS, type Talk, type Audience } from '@/data/site';
+import FAQ from '@/components/FAQ.astro';
+import BookingForm from '@/components/BookingForm.astro';
+import PhotoStrip from '@/components/PhotoStrip.astro';
+import heart from '@/assets/photos/stage-heart.jpg';
+import auditorium from '@/assets/photos/auditorium.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import workshop from '@/assets/photos/workshop.jpg';
+import podcast from '@/assets/photos/podcast.jpg';
+import stage from '@/assets/photos/hero-stage.jpg';
+
+export function getStaticPaths() {
+  return [...TALKS.map((t) => ({ params: { slug: t.slug }, props: { talk: t } })), ...AUDIENCES.map((a) => ({ params: { slug: a.slug }, props: { audience: a } }))];
+}
+const talk = (Astro.props as any).talk as Talk | undefined;
+const audience = (Astro.props as any).audience as Audience | undefined;
+const imgFor: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': classroom, 'a-framework-to-create-change': workshop, schools: auditorium, corporate: stage, government: classroom, conferences: heart, virtual: podcast, 'gen-z-workplace-speaker': podcast, 'staff-retention-speaker': workshop, 'workplace-culture-speaker': heart };
+const slug = (talk ?? audience)!.slug;
+const img = imgFor[slug];
+const title = talk ? `${talk.title} | Keynote by Wil Massara` : audience!.title;
+const description = talk ? talk.meta : audience!.description;
+const name = talk ? talk.title : audience!.name;
+const crumbs = [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url }, { '@type': 'ListItem', position: 2, name: 'Speaking', item: `${SITE.url}/speaking/` }, { '@type': 'ListItem', position: 3, name, item: `${SITE.url}/speaking/${slug}/` }];
+const schema: any[] = [{ '@type': 'BreadcrumbList', itemListElement: crumbs }];
+if (talk) schema.push({ '@type': 'Service', name: talk.title, serviceType: talk.format, description: talk.summary, provider: { '@id': `${SITE.url}/#person` }, areaServed: 'Worldwide', url: `${SITE.url}/speaking/${talk.slug}/` });
+if (audience) schema.push({ '@type': 'FAQPage', mainEntity: audience.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+const related = talk ? TALKS.filter((t) => t.slug !== talk.slug) : TALKS.filter((t) => audience!.talks.includes(t.slug));
+const h1 = talk ? talk.title : audience!.name;
+---
+<Base {title} {description} {schema}>
+  <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label={name}>
+    <div class="md:col-span-7">
+      <h1 class="t-head rise">{h1}</h1>
+      {talk ? <p class="t-statement mt-6 rise">{talk.kicker}. {talk.format}, {talk.length}.</p> : <p class="t-statement mt-6 rise">{audience!.h1}</p>}
+      <p class="t-body mt-6 max-w-[56ch] rise">{talk ? talk.summary : audience!.intro[0]}</p>
+      <div class="mt-8 flex flex-wrap gap-3 rise"><a href="#enquire" class="btn btn-accent">Check availability</a><a href="/speaking/" class="btn btn-ink">All topics</a></div>
+    </div>
+    <div class="pic pic-drift aspect-[4/5] rise md:col-span-4 md:col-start-9"><Image src={img} alt={talk ? `Wil Massara presenting ${talk.title}` : audience!.h1} width={900} class="h-full w-full object-cover" loading="eager" /></div>
+  </section>
+
+  {talk && (
+    <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="talk-h">
+      <h2 id="talk-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">The talk</h2>
+      <div class="prose-wm md:col-span-7 md:col-start-6">
+        {talk.description.map((p) => <p class="rise">{p}</p>)}
+        {talk.quote && <blockquote class="rise">{talk.quote}</blockquote>}
+        <h2 class="rise">What the room leaves with</h2>
+        <p class="rise">{talk.promise}</p>
+        <ul>{talk.takeaways.map((t) => <li class="rise">{t}</li>)}</ul>
+        <h2 class="rise">Best for</h2>
+        <p class="rise">{talk.bestFor.join(', ')}.</p>
+      </div>
+    </section>
+  )}
+
+  {audience && (
+    <>
+      <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="aud-h">
+        <h2 id="aud-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">What you get</h2>
+        <div class="prose-wm md:col-span-7 md:col-start-6">
+          {audience.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
+          <ul>{audience.outcomes.map((o) => <li class="rise">{o}</li>)}</ul>
+          <blockquote class="rise">{audience.proof}</blockquote>
+          <h2 class="rise">Recommended sessions</h2>
+          <ul>{related.map((t) => <li class="rise"><a href={`/speaking/${t.slug}/`}>{t.title}</a>, {t.format.toLowerCase()}, {t.length}</li>)}</ul>
+        </div>
+      </section>
+      <section class="frame section"><FAQ items={audience.faq} /></section>
+    </>
+  )}
+
+  <PhotoStrip set={talk ? "stage" : "rooms"} />
+  <section class="bg-field text-field-ink" aria-labelledby="say-h">
+    <div class="frame section grid gap-10 md:grid-cols-12">
+      <h2 id="say-h" class="t-head rise md:col-span-4">Organisers say</h2>
+      <div class="space-y-10 md:col-span-8">{TESTIMONIALS.slice(0, 2).map((t) => <figure class="rise"><blockquote class="t-lead font-extrabold max-w-[40ch]">{t.quote}</blockquote><figcaption class="t-small mt-3 text-field-ink/80">{t.name}, {t.role}, {t.org}</figcaption></figure>)}</div>
+    </div>
+  </section>
+
+  {talk && (
+    <section class="frame section grid gap-10 md:grid-cols-12" aria-labelledby="pair-h">
+      <h2 id="pair-h" class="t-head rise md:col-span-4">Pair it with</h2>
+      <div class="md:col-span-8">{related.map((t) => <a href={`/speaking/${t.slug}/`} class="group block py-5 rise"><span class="t-lead font-extrabold group-hover:text-accent transition-colors">{t.title}</span><span class="t-body mt-1 block max-w-[60ch]">{t.summary}</span></a>)}</div>
+    </section>
+  )}
+
+  <section id="enquire" class="bg-surface" aria-labelledby="enq-h">
+    <div class="frame section grid gap-12 lg:grid-cols-12">
+      <div class="lg:col-span-4"><h2 id="enq-h" class="t-head rise">Check availability</h2><p class="t-body mt-5 rise">Tell me about the event and you'll hear back within one business day.</p></div>
+      <div class="lg:col-span-8"><BookingForm compact /></div>
+    </div>
+  </section>
+</Base>

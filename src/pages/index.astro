@@ -1,0 +1,186 @@
+---
+import Base from '@/layouts/Base.astro';
+import { Image } from 'astro:assets';
+import { SITE, TALKS, AUDIENCES, GENERAL_FAQ } from '@/data/site';
+import FAQ from '@/components/FAQ.astro';
+import CTA from '@/components/CTA.astro';
+import Reel from '@/components/Reel.astro';
+import Quotes from '@/components/Quotes.astro';
+import { getCollection } from 'astro:content';
+import early from '@/assets/photos/early-days.jpg';
+import auditorium from '@/assets/photos/auditorium.jpg';
+import classroom from '@/assets/photos/classroom.jpg';
+import stage from '@/assets/photos/hero-stage.jpg';
+import heart from '@/assets/photos/stage-heart.jpg';
+import podcast from '@/assets/photos/podcast.jpg';
+import workshop from '@/assets/photos/workshop.jpg';
+import awards from '@/assets/photos/awards.jpg';
+import adventure from '@/assets/photos/adventure.jpg';
+import headshot from '@/assets/photos/headshot.jpg';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+const title = 'Wil Massara | Gen Z Keynote Speaker for Staff Events, Culture & Retention';
+const description = SITE.description;
+const schema = [
+  { '@type': 'FAQPage', mainEntity: GENERAL_FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+  { '@type': 'Service', '@id': `${SITE.url}/#service`, serviceType: 'Keynote speaking', name: 'Keynote speaking by Wil Massara', provider: { '@id': `${SITE.url}/#person` }, areaServed: ['Australia', 'New Zealand', 'Singapore', 'United Kingdom', 'United States', 'Worldwide'], audience: { '@type': 'Audience', audienceType: ['Conference organisers', 'Schools', 'Corporate HR and leadership teams', 'Government and councils'] }, hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Keynotes and workshops', itemListElement: TALKS.map((t) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: t.title, url: `${SITE.url}/speaking/${t.slug}/`, description: t.summary } })) } },
+  { '@type': 'VideoObject', name: 'Wil Massara keynote showreel', description: 'Highlights from Wil Massara’s keynote Lead Before You’re Ready, filmed at a Youth Leadership Academy Australia conference.', thumbnailUrl: `${SITE.url}/media/showreel-poster.jpg`, contentUrl: `${SITE.url}/media/showreel.mp4`, uploadDate: '2026-05-21', duration: 'PT3M40S' },
+];
+const reel = [
+  { img: early, alt: 'The early days: a YLAA event in a school gym', cap: '2018. The first YLAA event, 65 students.' },
+  { img: auditorium, alt: 'A full auditorium at a YLAA conference with "Hello, my name is Wil" on the screens', cap: 'Today. Ten events a year, thousands in the room.' },
+  { img: classroom, alt: 'Wil Massara presenting in a regional WA classroom', cap: 'Regional WA. There is no distance too far.' },
+  { img: stage, alt: 'Wil Massara on stage delivering a keynote', cap: 'On stage. Every event, still.' },
+];
+const talkImg: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': classroom, 'a-framework-to-create-change': workshop };
+const rooms = [
+  { slug: 'corporate', name: 'Leadership teams', panes: [stage, podcast], alts: ['Wil on a conference stage', 'Wil in the podcast studio'], line: 'Gen Z at work, retention and culture, from someone who is Gen Z. Offsites, all-hands, graduate programs.' },
+  { slug: 'gen-z-workplace-speaker', name: 'HR and people', panes: [podcast, workshop], alts: ['Wil in the podcast studio', 'A workshop in progress'], line: 'Why early-career staff leave at month 14 and the five changes that keep them. Keynote plus a working session.' },
+  { slug: 'workplace-culture-speaker', name: 'Staff events', panes: [heart, auditorium], alts: ['Wil on stage, hand on heart', 'A full auditorium'], line: 'Opening keynotes for staff conferences, culture days and all-hands, from 50 people to 5,000.' },
+  { slug: 'schools', name: 'Schools', panes: [auditorium, early], alts: ['A full auditorium of students', 'Students at an early YLAA event'], line: 'Student leadership days, year-level keynotes and staff PD. 1,500+ schools so far.' },
+  { slug: 'government', name: 'Government', panes: [classroom, awards], alts: ['Wil presenting a regional map', 'Wil at an awards podium'], line: 'Youth strategy, co-design and youth advisory groups, with young people in the room.' },
+];
+const beliefs = [
+  ['Young people lead now.', 'The "leaders of tomorrow" line is the most disagreed-with cliché in my work. 30% of Australians are under 25. They are not waiting.'],
+  ['Leadership is a core skill.', 'Maths and English are mandatory from day one. The skill every student uses for the rest of their life is left until the end, or left out.'],
+  ['Co-design, not for-design.', 'Decisions about young people without young people are tokenistic, even when well-intentioned. I say this as someone who has got it wrong.'],
+  ['Schools must embrace AI now.', 'Pretending students will figure it out later is the worst thing a school can do. This one gets pushback. I am fine with that.'],
+];
+---
+<Base {title} {description} {schema}>
+  <!-- 1. Hero: sentence split by a frame, the reel passes between the halves -->
+  <section class="relative hero-wrap md:h-[240svh]" data-hero aria-label="Introduction">
+    <div class="hero-stage md:sticky md:top-0 md:h-[100svh] md:overflow-hidden">
+      <div class="frame hero-grid relative h-full pt-[calc(var(--nav-h)+8px)] md:block md:pt-0">
+        <h1 class="t-hero hero-title relative z-20 md:absolute md:inset-x-[var(--margin)] md:top-1/2 md:flex md:-translate-y-1/2 md:justify-between">
+          <span class="block hero-half-1" data-hero-half>Young people</span>
+          <span class="block text-right hero-half-2" data-hero-half>lead now.</span>
+        </h1>
+        <div class="hero-reel md:absolute md:left-1/2 md:top-1/2 md:z-10 md:aspect-video md:w-[35vw] md:-translate-x-1/2 md:-translate-y-1/2" data-reel-track>
+          <div class="absolute inset-x-0 top-0 flex flex-col gap-6" data-reel-strip>
+            <figure class="pic aspect-[4/3] md:aspect-video" data-reel-frame>
+              <video autoplay muted loop playsinline poster="/media/showreel-poster.jpg" aria-label="Wil Massara on stage, muted highlights"><source src="/media/hero-loop.mp4" type="video/mp4" /></video>
+            </figure>
+            {reel.map((r) => <figure class="pic aspect-[4/3] md:aspect-video" data-reel-frame><Image src={r.img} alt={r.alt} width={1200} loading="eager" class="h-full w-full object-cover" /></figure>)}
+          </div>
+        </div>
+        <div class="hero-support relative z-20 max-w-[36ch] pb-2 md:absolute md:bottom-8 md:left-[var(--margin)]">
+          <p class="t-body rise" data-reel-caption>Gen Z keynote speaker for staff conferences, leadership teams and HR events. Founder of Youth Leadership Academy Australia at 15.</p>
+          <p class="t-small mt-3 text-muted" data-reel-captions data-captions={JSON.stringify(['Sydney. Available worldwide.', ...reel.map((r) => r.cap)])}>Sydney. Available worldwide.</p>
+          <a href="/book/" class="btn btn-accent mt-5 rise md:hidden">Check availability</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Intro: the statement, two photographs -->
+  <section class="frame section grid gap-12 lg:grid-cols-12 lg:items-start" aria-labelledby="intro-h">
+    <div class="lg:col-span-7">
+      <h2 id="intro-h" class="t-head rise">Not the leaders of tomorrow.</h2>
+      <p class="t-statement mt-10 rise">I'm Wil Massara, a Gen Z keynote speaker on what young people want at work, and how to keep them.</p>
+      <p class="t-body mt-8 max-w-[52ch] rise">I founded a national youth organisation at 15 and still open every one of its events. Leadership teams, HR conferences and staff events book me for a straight read on the generation entering their workforce, delivered by someone still in it. I have hired, led and lost young staff. I failed Year 12 and finished an MBA at 21. The room believes me because the story is still happening.</p>
+      <a href="/about/" class="link mt-6 inline-block rise">Read the whole story</a>
+    </div>
+    <div class="grid grid-cols-5 gap-6 lg:col-span-5">
+      <div class="pic pic-drift aspect-[4/5] rise col-span-3"><Image src={heart} alt="Wil Massara on stage, hand on heart" width={900} class="h-full w-full object-cover" /></div>
+      <div class="pic pic-drift aspect-square self-end rise col-span-2"><Image src={podcast} alt="Wil Massara recording the Podclass podcast" width={700} class="h-full w-full object-cover" /></div>
+    </div>
+  </section>
+
+  <!-- 3. Stats: one figure owns the screen -->
+  <section class="frame relative flex min-h-[90svh] flex-col justify-between bg-field py-16 text-field-ink md:py-20" aria-labelledby="figure-h">
+    <h2 id="figure-h" class="t-statement rise !font-extrabold">From 65 in a clubroom</h2>
+    <div class="mt-[22vh]">
+      <p class="rise font-extrabold leading-[0.8] tracking-[-0.05em] figure-num">65,000<sup class="align-top text-[0.33em] leading-none">+</sup></p>
+      <p class="t-body mt-6 max-w-[32ch] rise">young people reached by Youth Leadership Academy Australia since 2018, across 1,500 schools. The first event was 65 students in a football clubroom in Leederville, Perth.</p>
+    </div>
+    <p class="t-small mt-10 max-w-[40ch] text-field-ink/80 md:absolute md:bottom-6 md:right-[var(--margin)] md:mt-0 md:text-right">Source: YLAA program records and the University of Melbourne impact framework, 2026.</p>
+  </section>
+
+  <!-- 4. Showcase: the reel in one frame -->
+  <section class="frame section" aria-labelledby="reel-h">
+    <h2 id="reel-h" class="t-head rise text-center">See him work a room</h2>
+    <div class="mx-auto mt-10 w-full max-w-[52vw] rise max-md:max-w-none"><Reel /></div>
+    <p class="t-body mx-auto mt-6 max-w-[40ch] text-center rise">Three minutes and forty seconds from a Secondary Youth Leadership Conference keynote. 1,500 fourteen-year-olds, no notes.</p>
+  </section>
+
+  <!-- 5. List: sticky photograph, active list -->
+  <section class="frame section grid gap-10 md:grid-cols-12" aria-labelledby="talks-h">
+    <div class="md:col-span-5">
+      <div class="pic sticky top-[12vh] aspect-[4/5] w-full" data-index-frame>
+        {TALKS.map((t, i) => <Image src={talkImg[t.slug]} alt={`Keynote: ${t.title}`} width={900} class:list={['absolute inset-0 h-full w-full object-cover transition-opacity duration-300', i === 0 ? 'opacity-100' : 'opacity-0']} data-index-pic={t.slug} />)}
+      </div>
+    </div>
+    <div class="md:col-span-6 md:col-start-7">
+      <h2 id="talks-h" class="t-head rise">The keynotes</h2>
+      <div class="mt-12" data-index>
+        {TALKS.map((t, i) => (
+          <div class="rise">
+            <button type="button" class="index-row" data-index-row={t.slug} aria-expanded={i === 0 ? 'true' : 'false'} aria-controls={`talk-${t.slug}`}>
+              <span class="flex items-baseline justify-between gap-6"><span class="name">{t.title}</span><span class="t-small flex-none">{t.length}</span></span>
+              <span class="desc" id={`talk-${t.slug}`}>{t.summary} <a href={`/speaking/${t.slug}/`} class="link">Read about this talk</a></span>
+            </button>
+          </div>
+        ))}
+        <a href="/speaking/" class="btn btn-ink mt-10">All speaking topics</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Work: the live thing. Pick the room; the page answers. -->
+  <section class="section bg-surface" aria-labelledby="room-h" data-rooms>
+    <div class="frame">
+      <h2 id="room-h" class="t-head rise">Who's in your room?</h2>
+      <div class="mt-8 flex flex-wrap gap-x-8 gap-y-2 rise" role="group" aria-label="Choose an audience">
+        {rooms.map((r, i) => <button type="button" class="room-tab" data-room-tab={i} aria-pressed={i === 0 ? 'true' : 'false'}>{r.name}</button>)}
+      </div>
+    </div>
+    <div class="mt-10">
+      {rooms.map((r, i) => (
+        <div class="room-panel" data-room-panel={i} hidden={i !== 0}>
+          <div class="relative grid grid-cols-2">
+            {r.panes.map((p, j) => <div class="pic aspect-[4/5] md:aspect-[720/900] md:max-h-[90svh]"><Image src={p} alt={r.alts[j]} width={900} class="h-full w-full object-cover" /></div>)}
+            <p class="seam-title" aria-hidden="true"><span>{r.name}</span></p>
+          </div>
+          <div class="frame mt-6 grid gap-6 md:grid-cols-12">
+            <p class="t-lead md:col-span-6">{r.line}</p>
+            <div class="md:col-span-5 md:col-start-8">
+              <p class="t-small text-muted">Recommended for this room</p>
+              <ul class="mt-2">{AUDIENCES.find((a) => a.slug === r.slug)!.talks.slice(0, 2).map((s) => { const t = TALKS.find((x) => x.slug === s)!; return <li class="py-1"><a href={`/speaking/${t.slug}/`} class="link t-body">{t.title}</a></li>; })}</ul>
+              <a href={`/speaking/${r.slug}/`} class="btn btn-accent mt-5">Speaking for {r.name.toLowerCase()}</a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- 7. Testimonial: quotes in the gutters (pinned on desktop) -->
+  <Quotes />
+
+  <!-- 8. About: what I believe, on the black field -->
+  <section class="bg-field text-field-ink" aria-labelledby="believe-h">
+    <div class="pic aspect-[16/7] max-h-[70svh] w-full"><Image src={adventure} alt="Wil Massara on a volcano in Guatemala, arms out" width={2000} class="h-full w-full object-cover object-center" /></div>
+    <div class="frame section-tight grid gap-12 md:grid-cols-12">
+      <h2 id="believe-h" class="t-head rise md:col-span-4">What I believe</h2>
+      <div class="grid gap-10 sm:grid-cols-2 md:col-span-8">
+        {beliefs.map(([h, p]) => <div class="rise"><h3 class="t-lead font-extrabold">{h}</h3><p class="t-body mt-3 text-field-ink/90">{p}</p></div>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Blog: three recent posts -->
+  <section class="frame section" aria-labelledby="blog-h">
+    <h2 id="blog-h" class="t-head rise">Notes from the road</h2>
+    <div class="mt-12 grid gap-10 md:grid-cols-3">
+      {posts.map((p) => <a href={`/blog/${p.id}/`} class="group block rise"><p class="t-small text-muted">{p.data.category}</p><h3 class="t-lead mt-2 font-extrabold group-hover:text-accent transition-colors">{p.data.title}</h3><p class="t-body mt-3">{p.data.description}</p><p class="t-small mt-4 text-muted">{p.data.readingTime} min read</p></a>)}
+    </div>
+    <a href="/blog/" class="link mt-10 inline-block rise">All posts</a>
+  </section>
+
+  <!-- 10. FAQ -->
+  <section class="frame section" aria-labelledby="faq-h"><FAQ items={GENERAL_FAQ} /></section>
+
+  <!-- 11. CTA band -->
+  <CTA />
+</Base>

@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import { TESTIMONIALS } from '@/data/site';
+import headshot from '@/assets/photos/headshot.jpg';
+import heart from '@/assets/photos/stage-heart.jpg';
+import awards from '@/assets/photos/awards.jpg';
+const portraits = [heart, headshot, awards];
+const alts = ['Wil Massara on stage, hand on heart', 'Wil Massara, headshot', 'Wil Massara speaking at the WA Young Achiever Awards'];
+---
+<!-- Three screens, one quotation each: the portrait sits centre, the quotation in a gutter that changes side and height. -->
+<section class="frame section" aria-labelledby="quotes-h">
+  <h2 id="quotes-h" class="rise text-[16vw] font-extrabold leading-[0.9] tracking-[-0.04em] md:text-[10vw]">Organisers say</h2>
+  <div class="mt-10 space-y-16 md:mt-4 md:space-y-0">
+    {TESTIMONIALS.map((t, i) => (
+      <div class="grid gap-6 md:min-h-[70svh] md:grid-cols-12 md:items-center">
+        <div class:list={['pic pic-drift aspect-[4/5] w-[72%] rise md:col-span-4 md:w-full md:col-start-5', i % 2 ? 'ml-auto md:ml-0' : '']}><Image src={portraits[i]} alt={alts[i]} width={900} class="h-full w-full object-cover" /></div>
+        <figure class:list={['rise md:col-span-3 md:w-[min(280px,100%)]', i % 2 ? 'md:col-start-1 md:row-start-1 md:self-start md:mt-[8vh]' : 'md:col-start-10 md:self-end md:mb-[8vh]']}>
+          <blockquote class="t-lead font-extrabold leading-tight">{t.quote}</blockquote>
+          <figcaption class="mt-3 t-small text-muted">{t.name}, {t.role}, {t.org}</figcaption>
+        </figure>
+      </div>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,17 @@
+---
+interface Props { class?: string }
+const { class: cls = '' } = Astro.props;
+---
+<button type="button" data-reel-open class:list={['pic group relative block w-full text-left', cls]} aria-label="Play the showreel, 3 minutes 40 seconds">
+  <img src="/media/showreel-poster.jpg" alt="Wil Massara delivering a keynote on stage" width="1600" height="900" class="aspect-[4/5] w-full object-cover md:aspect-video" loading="lazy" />
+  <span class="absolute inset-0 flex items-center justify-center">
+    <span class="flex h-20 w-20 items-center justify-center bg-accent text-accent-ink transition-colors group-hover:bg-field-ink group-hover:text-ink"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+  </span>
+</button>
+<div id="reel-modal" class="fixed inset-0 z-[90] hidden items-center justify-center bg-field p-4 md:p-10" role="dialog" aria-modal="true" aria-label="Showreel">
+  <button type="button" data-reel-close class="absolute inset-0 cursor-default" aria-label="Close"></button>
+  <div class="relative z-10 w-full max-w-5xl">
+    <video controls playsinline preload="none" poster="/media/showreel-poster.jpg" class="aspect-video w-full bg-black"><source src="/media/showreel.mp4" type="video/mp4" /></video>
+    <button type="button" data-reel-close class="btn btn-light mt-4">Close</button>
+  </div>
+</div>
