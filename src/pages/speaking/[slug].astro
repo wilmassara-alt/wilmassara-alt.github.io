@@ -7,8 +7,9 @@ import BookingForm from '@/components/BookingForm.astro';
 import PhotoStrip from '@/components/PhotoStrip.astro';
 import heart from '@/assets/photos/stage-heart.jpg';
 import auditorium from '@/assets/photos/auditorium.jpg';
-import classroom from '@/assets/photos/classroom.jpg';
-import workshop from '@/assets/photos/workshop.jpg';
+import panel from '@/assets/photos/event-2023.jpg';
+import laugh from '@/assets/photos/candid-1.jpg';
+import podium from '@/assets/photos/candid-2.jpg';
 import podcast from '@/assets/photos/podcast.jpg';
 import stage from '@/assets/photos/hero-stage.jpg';
 
@@ -17,7 +18,7 @@ export function getStaticPaths() {
 }
 const talk = (Astro.props as any).talk as Talk | undefined;
 const audience = (Astro.props as any).audience as Audience | undefined;
-const imgFor: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': classroom, 'a-framework-to-create-change': workshop, schools: auditorium, corporate: stage, government: classroom, conferences: heart, virtual: podcast, 'gen-z-workplace-speaker': podcast, 'staff-retention-speaker': workshop, 'workplace-culture-speaker': heart };
+const imgFor: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': panel, 'a-framework-to-create-change': laugh, schools: auditorium, corporate: stage, government: podium, conferences: heart, virtual: podcast, 'gen-z-workplace-speaker': podcast, 'staff-retention-speaker': laugh, 'workplace-culture-speaker': heart };
 const slug = (talk ?? audience)!.slug;
 const img = imgFor[slug];
 const title = talk ? `${talk.title} | Keynote by Wil Massara` : audience!.title;
@@ -35,7 +36,7 @@ const h1 = talk ? talk.title : audience!.name;
     <div class="md:col-span-7">
       <h1 class="t-head rise">{h1}</h1>
       {talk ? <p class="t-statement mt-6 rise">{talk.kicker}. {talk.format}, {talk.length}.</p> : <p class="t-statement mt-6 rise">{audience!.h1}</p>}
-      <p class="t-body mt-6 max-w-[56ch] rise">{talk ? talk.summary : audience!.intro[0]}</p>
+      <p class="t-body mt-6 max-w-[44ch] rise">{talk ? talk.summary : audience!.intro[0]}</p>
       <div class="mt-8 flex flex-wrap gap-3 rise"><a href="#enquire" class="btn btn-accent">Check availability</a><a href="/speaking/" class="btn btn-ink">All topics</a></div>
     </div>
     <div class="pic pic-drift aspect-[4/5] rise md:col-span-4 md:col-start-9"><Image src={img} alt={talk ? `Wil Massara presenting ${talk.title}` : audience!.h1} width={900} class="h-full w-full object-cover" loading="eager" /></div>
@@ -62,7 +63,7 @@ const h1 = talk ? talk.title : audience!.name;
       <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="aud-h">
         <h2 id="aud-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">What you get</h2>
         <div class="prose-wm md:col-span-7 md:col-start-6">
-          <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker for {audience.name.toLowerCase()} audiences.</strong> He founded Youth Leadership Academy Australia at 15 in 2018; it has reached 65,000+ young people across 1,500+ schools, with 99% of schools recommending its programs. Keynotes run 30 to 60 minutes and workshops 90 minutes to a full day, in person worldwide or virtually from Sydney.</p>
+          <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker for {audience.name.toLowerCase()} audiences.</strong> He founded Youth Leadership Academy Australia at 15; it has reached 65,000+ young people across 1,500+ schools. Keynotes run 30 to 60 minutes, in person worldwide or virtually from Sydney.</p>
           {audience.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
           <ul>{audience.outcomes.map((o) => <li class="rise">{o}</li>)}</ul>
           <blockquote class="rise">{audience.proof}</blockquote>

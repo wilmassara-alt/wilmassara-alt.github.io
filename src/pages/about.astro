@@ -4,11 +4,11 @@ import { Image } from 'astro:assets';
 import { SITE, AWARDS } from '@/data/site';
 import CTA from '@/components/CTA.astro';
 import headshot from '@/assets/photos/headshot.jpg';
-import early from '@/assets/photos/early-days.jpg';
+import laugh from '@/assets/photos/candid-1.jpg';
 import team from '@/assets/photos/team-2017.jpg';
 import adventure from '@/assets/photos/adventure.jpg';
 import awards from '@/assets/photos/awards.jpg';
-import classroom from '@/assets/photos/classroom.jpg';
+import panel from '@/assets/photos/event-2023.jpg';
 import auditorium from '@/assets/photos/auditorium.jpg';
 const title = 'About Wil Massara | Founder of YLAA at 15, Gen Z Keynote Speaker';
 const description = 'Collie-raised, first business at 11, founded Youth Leadership Academy Australia at 15, no ATAR, MBA at 21. The story behind Gen Z keynote speaker Wil Massara.';
@@ -25,14 +25,14 @@ const timeline = [
   ['2025', 'Named WA Young Achiever of the Year for Community Leadership and WA Youth Awards Young Changemaker. Selected as one of 50 global changemakers for the Global Changemakers Youth Summit in Cape Town.'],
   ['2026', 'The national tour reaches 11,500 students from 850 schools across five cities in a month. Lifetime reach passes 65,000 young people and 1,500 schools.'],
 ];
-const strip = [[early, 'Wil at an early YLAA event'], [team, 'The first YLAA team in 2017'], [auditorium, 'A full auditorium at a YLAA conference'], [classroom, 'Wil presenting in a regional WA classroom'], [awards, 'Wil speaking at the 2025 WA Young Achiever Awards'], [adventure, 'Wil on a volcano in Guatemala']];
+const strip = [[laugh, 'Wil laughing in the podcast chair'], [team, 'The first YLAA team in 2017'], [auditorium, 'A full auditorium at a YLAA conference'], [panel, 'Wil on a conference panel'], [awards, 'Wil speaking at the 2025 WA Young Achiever Awards'], [adventure, 'Wil on a volcano in Guatemala']];
 ---
 <Base {title} {description} {schema} type="profile">
   <section class="frame grid gap-10 pt-[calc(var(--nav-h)+48px)] md:grid-cols-12 md:items-end" aria-label="About Wil">
     <div class="md:col-span-7">
       <h1 class="t-head rise">A kid from a coal town.</h1>
       <p class="t-statement mt-8 rise">I grew up in Collie, Western Australia. First business at 11, a national youth organisation at 15, no ATAR at 17, an MBA at 21.</p>
-      <p class="t-body mt-6 max-w-[52ch] rise">Now I speak about what that taught me, in rooms from Year 5 assemblies to executive offsites.</p>
+      <p class="t-body mt-6 max-w-[40ch] rise">Now I speak about what that taught me, from Year 5 assemblies to executive offsites.</p>
     </div>
     <div class="pic pic-drift aspect-[4/5] rise md:col-span-4 md:col-start-9"><Image src={headshot} alt="Wil Massara, headshot" width={900} class="h-full w-full object-cover" loading="eager" /></div>
   </section>

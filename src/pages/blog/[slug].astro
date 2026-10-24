@@ -8,11 +8,11 @@ import FAQ from '@/components/FAQ.astro';
 import PhotoStrip from '@/components/PhotoStrip.astro';
 import headshot from '@/assets/photos/headshot.jpg';
 import auditorium from '@/assets/photos/auditorium.jpg';
-import classroom from '@/assets/photos/classroom.jpg';
-import workshop from '@/assets/photos/workshop.jpg';
+import laugh from '@/assets/photos/candid-1.jpg';
+import panel from '@/assets/photos/event-2023.jpg';
 import podcast from '@/assets/photos/podcast.jpg';
 import stage from '@/assets/photos/hero-stage.jpg';
-const bandFor: Record<string, any> = { 'Gen Z at work': podcast, 'Leadership': stage, 'Education': auditorium, 'Youth leadership': auditorium, 'Co-design': workshop, 'AI in education': classroom };
+const bandFor: Record<string, any> = { 'Gen Z at work': podcast, 'Leadership': stage, 'Education': auditorium, 'Youth leadership': auditorium, 'Co-design': panel, 'AI in education': laugh };
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);

@@ -24,7 +24,7 @@ const nearby = GEOS.filter((g) => geo.nearby.includes(g.slug));
     <div class="md:col-span-7">
       <h1 class="t-head rise">Keynote speaker, {place}</h1>
       <p class="t-statement mt-6 rise">{geo.h1.replace(/^Keynote speaker (in|for) [^:]+: /, '').replace(/^\w/, (c) => c.toUpperCase())}.</p>
-      <p class="t-body mt-6 max-w-[56ch] rise">{geo.intro[0]}</p>
+      <p class="t-body mt-6 max-w-[44ch] rise">{geo.intro[0]}</p>
       <div class="mt-8 flex flex-wrap gap-3 rise"><a href="#enquire" class="btn btn-accent">Check {place} availability</a><a href="/speaking/" class="btn btn-ink">See the keynotes</a></div>
     </div>
     <div class="pic pic-drift aspect-[4/3] rise md:col-span-5"><Image src={geo.countryCode === 'AU' ? auditorium : stage} alt={`Wil Massara, keynote speaker available in ${place}`} width={1200} class="h-full w-full object-cover" loading="eager" /></div>
@@ -37,13 +37,13 @@ const nearby = GEOS.filter((g) => geo.nearby.includes(g.slug));
       <p class="t-small mt-6 rise">Also available in {nearby.map((n, i) => <><a href={`/keynote-speaker/${n.slug}/`} class="link">{n.place.replace(/^the /, '')}</a>{i < nearby.length - 1 ? ', ' : ''}</>)}.</p>
     </div>
     <div class="prose-wm md:col-span-7 md:col-start-6">
-      <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker available for events in {place}.</strong> He founded Youth Leadership Academy Australia at 15 in 2018; it has reached 65,000+ young people across 1,500+ schools, and 99% of schools would recommend its programs. He is General Manager at The Youth Impact Foundation, the 2025 WA Young Achiever of the Year for Community Leadership, and speaks on Gen Z at work, staff retention, youth leadership and co-design. Keynotes run 30 to 60 minutes; workshops 90 minutes to a full day.</p>
+      <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker available for events in {place}.</strong> He founded Youth Leadership Academy Australia at 15; it has reached 65,000+ young people across 1,500+ schools. He speaks on Gen Z at work, retention, youth leadership and co-design. Keynotes run 30 to 60 minutes.</p>
       {geo.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
       <ul>{geo.local.map((l) => <li class="rise">{l}</li>)}</ul>
       <h2 class="rise">Travel and logistics</h2>
       <p class="rise">{geo.travel}</p>
       <h2 class="rise">Who books a speaker in {place}</h2>
-      <p class="rise">Conference organisers who need an opening or closing keynote with energy and an argument. School leaders planning a student leadership day or staff professional development. HR and leadership teams working out how to lead Gen Z. Government departments and councils running youth strategy, youth advisory groups or summits. Every booking includes a pre-event call with Wil, not an agent.</p>
+      <p class="rise">Conference organisers, HR and leadership teams, school leaders and councils. Every booking includes a pre-event call with Wil, not an agent.</p>
       <h2 class="rise">Keynotes for {place} audiences</h2>
       <ul>{TALKS.slice(0, 3).map((t) => <li class="rise"><a href={`/speaking/${t.slug}/`}>{t.title}</a>: {t.summary}</li>)}</ul>
     </div>

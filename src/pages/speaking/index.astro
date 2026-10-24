@@ -9,9 +9,9 @@ import PhotoStrip from '@/components/PhotoStrip.astro';
 import stage from '@/assets/photos/hero-stage.jpg';
 import heart from '@/assets/photos/stage-heart.jpg';
 import podcast from '@/assets/photos/podcast.jpg';
-import classroom from '@/assets/photos/classroom.jpg';
-import workshop from '@/assets/photos/workshop.jpg';
-const talkImg: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': classroom, 'a-framework-to-create-change': workshop };
+import panel from '@/assets/photos/event-2023.jpg';
+import laugh from '@/assets/photos/candid-1.jpg';
+const talkImg: Record<string, any> = { 'lead-before-youre-ready': heart, 'gen-z-at-work': podcast, 'change-happens-together': panel, 'a-framework-to-create-change': laugh };
 const title = 'Book Wil Massara | Gen Z & Youth Leadership Keynotes and Workshops';
 const description = 'Keynotes and workshops by Wil Massara: Lead Before You’re Ready, Gen Z at Work, Change Happens Together and the Creating Change workshop. Australia and worldwide.';
 const faq = [
@@ -45,8 +45,8 @@ const process = [['Send the brief', 'Date, location, audience, format and what y
           <div class:list={['md:col-span-6', i % 2 ? 'md:col-start-1 md:row-start-1' : 'md:col-start-7']}>
             <p class="t-small text-muted rise">{t.format}, {t.length}</p>
             <h3 class="t-lead mt-2 font-extrabold rise" style="font-size: clamp(1.75rem, 1rem + 2.2vw, 2.75rem); line-height: 1.05;">{t.title}</h3>
-            <p class="t-body mt-4 max-w-[52ch] rise">{t.summary}</p>
-            <p class="t-body mt-4 max-w-[52ch] rise"><span class="font-extrabold">Best for:</span> {t.bestFor.join(', ')}.</p>
+            <p class="t-body mt-4 max-w-[42ch] rise">{t.summary}</p>
+            <p class="t-body mt-4 max-w-[42ch] rise"><span class="font-extrabold">Best for:</span> {t.bestFor.join(', ')}.</p>
             <a href={`/speaking/${t.slug}/`} class="link mt-5 inline-block rise">About this talk</a>
           </div>
         </article>
@@ -62,7 +62,7 @@ const process = [['Send the brief', 'Date, location, audience, format and what y
     <div class="frame section grid gap-10 md:grid-cols-12">
       <h2 id="aud-h" class="t-head rise md:col-span-4">Who books Wil</h2>
       <div class="md:col-span-8">
-        {AUDIENCES.map((a) => <a href={`/speaking/${a.slug}/`} class="group block py-5 rise"><span class="t-lead font-extrabold group-hover:text-accent transition-colors">{a.name}</span><span class="t-body mt-1 block max-w-[60ch]">{a.h1}</span></a>)}
+        {AUDIENCES.map((a) => <a href={`/speaking/${a.slug}/`} class="group block py-5 rise"><span class="t-lead font-extrabold group-hover:text-accent transition-colors">{a.name}</span><span class="t-body mt-1 block max-w-[44ch]">{a.h1}</span></a>)}
       </div>
     </div>
   </section>

@@ -1,17 +1,17 @@
 ---
 import { Image } from 'astro:assets';
 import auditorium from '@/assets/photos/auditorium.jpg';
-import classroom from '@/assets/photos/classroom.jpg';
-import early from '@/assets/photos/early-days.jpg';
+import laugh from '@/assets/photos/candid-1.jpg';
+import podium from '@/assets/photos/candid-2.jpg';
+import panel from '@/assets/photos/event-2023.jpg';
 import heart from '@/assets/photos/stage-heart.jpg';
 import awards from '@/assets/photos/awards.jpg';
-import workshop from '@/assets/photos/workshop.jpg';
 interface Props { set?: 'stage' | 'rooms' | 'story'; title?: string }
 const { set = 'stage', title = 'In the room' } = Astro.props;
 const sets = {
   stage: [[auditorium, 'A full auditorium at a YLAA conference, "Hello, my name is Wil" on the screens'], [heart, 'Wil Massara on stage, hand on heart'], [awards, 'Wil speaking at the 2025 WA Young Achiever Awards']],
-  rooms: [[classroom, 'Wil presenting in a regional WA classroom'], [workshop, 'A workshop in progress'], [auditorium, 'A full auditorium at a YLAA conference']],
-  story: [[early, 'An early YLAA event in a school gym'], [classroom, 'Wil in a regional classroom'], [heart, 'Wil on stage']],
+  rooms: [[panel, 'Wil on a student conference panel'], [laugh, 'Wil laughing in the podcast chair'], [auditorium, 'A full auditorium at a YLAA conference']],
+  story: [[podium, 'Wil at the WA Youth Awards 2025'], [panel, 'Wil on a conference panel'], [heart, 'Wil on stage']],
 };
 const pics = sets[set];
 ---
