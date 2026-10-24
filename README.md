@@ -21,29 +21,17 @@ git add -A && git commit -m "Describe the change" && git push && npm run deploy
 
 ## Launch checklist
 
-1. Deployed: https://wilmassara-alt.github.io/ is live from the `gh-pages` branch.
-
-2. Point the domain. In Squarespace Domains > wilmassara.com > DNS, add these records and remove the Squarespace website records (keep every MX, TXT and email record as they are):
-
-| Type | Host | Value |
-| --- | --- | --- |
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-| CNAME | www | wilmassara-alt.github.io |
-
-3. Then tell GitHub the domain and redeploy:
+1. Deployed from the `gh-pages` branch. Done 2026-10-24.
+2. DNS in Squarespace Domains points at GitHub Pages (four A records at @, CNAME www to wilmassara-alt.github.io). Google Workspace MX and DKIM records untouched. Done 2026-10-24.
+3. Custom domain attached on GitHub (`public/CNAME` = wilmassara.com). Done 2026-10-24. In the repo Settings > Pages, tick "Enforce HTTPS" once the certificate is issued (up to an hour after DNS propagates), or run:
 
 ```bash
-mv CNAME.when-dns-is-ready public/CNAME && git add -A && git commit -m "Custom domain" && git push && npm run deploy && gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -f cname=wilmassara.com
+gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enforced=true
 ```
 
-In the repo Settings > Pages, tick "Enforce HTTPS" once the certificate appears (up to an hour after DNS propagates).
-
 4. Activate the form. Submit the booking form once on the live site. FormSubmit emails hello@wilmassara.com an activation link; click it. Every later submission lands in that inbox.
-
 5. Search. Add the site in Google Search Console (domain property, DNS TXT verification) and submit `https://wilmassara.com/sitemap-index.xml`. Add the same in Bing Webmaster Tools.
+6. Optional email hygiene noticed during the DNS work: there is no SPF TXT record at @ for Google Workspace. Adding `v=spf1 include:_spf.google.com ~all` improves deliverability of hello@ mail. Not changed, because it is outside the website brief.
 
 ## Content rules
 
