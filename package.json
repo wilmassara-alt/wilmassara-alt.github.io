@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "astro build && cd dist && git init -q -b gh-pages && git add -A && git -c user.name='Wil Massara' -c user.email='wil.massara@theyouthimpactfoundation.org.au' commit -q -m 'Deploy' && git push -f https://github.com/wilmassara-alt/wilmassara-alt.github.io.git gh-pages && cd .. && rm -rf dist/.git"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
