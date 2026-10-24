@@ -44,7 +44,8 @@ if (hero && strip) {
   const update = () => {
     if (window.innerWidth < 768) { strip.style.transform = 'none'; return; }
     const rect = hero.getBoundingClientRect();
-    const total = hero.offsetHeight - window.innerHeight;
+    // the reel finishes its run a little before the stage releases, so the last frame rests centred
+    const total = (hero.offsetHeight - window.innerHeight) * 0.82;
     const p = Math.min(1, Math.max(0, -rect.top / total));
     const step = (frames[0].offsetHeight + 24);
     const travel = step * (frames.length - 1);
@@ -53,7 +54,7 @@ if (hero && strip) {
     if (idx !== last && captions && caps[idx]) { captions.textContent = caps[idx]; last = idx; }
   };
   update();
-  window.addEventListener('scroll', update, { passive: true });
+  gsap.ticker.add(update);
   window.addEventListener('resize', update);
 }
 
