@@ -37,6 +37,7 @@ const nearby = GEOS.filter((g) => geo.nearby.includes(g.slug));
       <p class="t-small mt-6 rise">Also available in {nearby.map((n, i) => <><a href={`/keynote-speaker/${n.slug}/`} class="link">{n.place.replace(/^the /, '')}</a>{i < nearby.length - 1 ? ', ' : ''}</>)}.</p>
     </div>
     <div class="prose-wm md:col-span-7 md:col-start-6">
+      <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker available for events in {place}.</strong> He founded Youth Leadership Academy Australia at 15 in 2018; it has reached 65,000+ young people across 1,500+ schools, and 99% of schools would recommend its programs. He is General Manager at The Youth Impact Foundation, the 2025 WA Young Achiever of the Year for Community Leadership, and speaks on Gen Z at work, staff retention, youth leadership and co-design. Keynotes run 30 to 60 minutes; workshops 90 minutes to a full day.</p>
       {geo.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
       <ul>{geo.local.map((l) => <li class="rise">{l}</li>)}</ul>
       <h2 class="rise">Travel and logistics</h2>

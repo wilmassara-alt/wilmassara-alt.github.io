@@ -45,6 +45,7 @@ const h1 = talk ? talk.title : audience!.name;
     <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="talk-h">
       <h2 id="talk-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">The talk</h2>
       <div class="prose-wm md:col-span-7 md:col-start-6">
+        <p class="rise"><strong>{talk.title} is a {talk.format.toLowerCase()} by Wil Massara, {talk.length}.</strong> {talk.summary}</p>
         {talk.description.map((p) => <p class="rise">{p}</p>)}
         {talk.quote && <blockquote class="rise">{talk.quote}</blockquote>}
         <h2 class="rise">What the room leaves with</h2>
@@ -61,6 +62,7 @@ const h1 = talk ? talk.title : audience!.name;
       <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="aud-h">
         <h2 id="aud-h" class="t-head rise md:sticky md:top-24 md:col-span-4 md:self-start">What you get</h2>
         <div class="prose-wm md:col-span-7 md:col-start-6">
+          <p class="rise"><strong>Wil Massara is a Gen Z keynote speaker for {audience.name.toLowerCase()} audiences.</strong> He founded Youth Leadership Academy Australia at 15 in 2018; it has reached 65,000+ young people across 1,500+ schools, with 99% of schools recommending its programs. Keynotes run 30 to 60 minutes and workshops 90 minutes to a full day, in person worldwide or virtually from Sydney.</p>
           {audience.intro.slice(1).map((p) => <p class="rise">{p}</p>)}
           <ul>{audience.outcomes.map((o) => <li class="rise">{o}</li>)}</ul>
           <blockquote class="rise">{audience.proof}</blockquote>

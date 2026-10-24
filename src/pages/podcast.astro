@@ -19,7 +19,24 @@ const schema = { '@type': 'PodcastSeries', name: 'Podclass', url: SITE.orgs.podc
     </div>
     <div class="pic pic-drift aspect-[4/3] rise md:col-span-5"><Image src={podcast} alt="Wil Massara recording Podclass" width={1200} class="h-full w-full object-cover" loading="eager" /></div>
   </section>
-  <section class="frame section grid gap-12 md:grid-cols-3" aria-label="About the podcast">
+  <section class="frame section grid gap-12 md:grid-cols-12" aria-labelledby="pod-h">
+    <h2 id="pod-h" class="t-head rise md:col-span-4">What Podclass is</h2>
+    <div class="prose-wm md:col-span-7 md:col-start-6">
+      <p class="rise"><strong>Podclass is a weekly podcast for teachers and school leaders, co-hosted by Wil Massara, Amanda Marshall and Skye Hughes.</strong> Episodes run 20 to 40 minutes and come out every Wednesday. The show is produced by Youth Leadership Academy Australia and the Youth Engagement Project, two brands of The Youth Impact Foundation.</p>
+      <p class="rise">Each episode takes one thing that is happening in classrooms right now and works out what to do about it: why a student will not raise their hand (the amygdala, mostly), what Gen Z students actually want from a teacher, how to run a student leadership program that is more than a badge, and what schools should do about AI this term rather than next year.</p>
+      <h2 class="rise">Recent topics</h2>
+      <ul>
+        <li class="rise">The amygdala in the classroom: why fear of embarrassment shapes how students learn and speak up</li>
+        <li class="rise">Leadership literacy: teaching leadership the way schools teach reading</li>
+        <li class="rise">Student voice without tokenism: co-design that survives the consultation</li>
+        <li class="rise">AI in schools: what students are already doing, and what to teach instead of banning</li>
+        <li class="rise">What 1,500 schools taught YLAA about who becomes a student leader</li>
+      </ul>
+      <h2 class="rise">How to listen</h2>
+      <p class="rise">Podclass is on <a href={SITE.orgs.podclass.url} target="_blank" rel="noopener">Spotify</a> and the usual podcast apps. Search "Podclass" and look for the YLAA artwork. Show notes and past episodes are on the <a href="https://www.ylaaus.com/podclass" target="_blank" rel="noopener">YLAA Podclass page</a>.</p>
+    </div>
+  </section>
+  <section class="frame section-tight grid gap-12 md:grid-cols-3" aria-label="About the podcast">
     {[['Who it is for', 'Teachers, heads of wellbeing, deputies and principals who want a straight read on what students are thinking, from people who work with tens of thousands of them.'], ['What we cover', 'Student leadership, Gen Z and motivation, co-design and student voice, AI in schools, the brain science behind confidence, and the practical stuff nobody put in the lesson plan.'], ['Guest requests', 'Educators, researchers and young leaders with a point of view. Email hello@wilmassara.com with the topic in the subject line.']].map(([h, p]) => <div class="rise"><h2 class="t-lead font-extrabold">{h}</h2><p class="t-body mt-3">{p}</p></div>)}
   </section>
   <PhotoStrip set="story" title="Where the conversations come from" />
