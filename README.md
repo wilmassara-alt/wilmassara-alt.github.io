@@ -31,7 +31,7 @@ gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enfor
 
 4. Form activated 2026-10-24 (FormSubmit activation link clicked; a labelled test submission returned success). Every submission lands in hello@wilmassara.com.
 5. Google Search Console: domain property `sc-domain:wilmassara.com` verified via DNS TXT on 2026-10-24 (record `google-site-verification=...` at @, keep it), sitemap-index.xml submitted and read with status Success. Signed in as hello@wilmassara.com. Still optional: Bing Webmaster Tools (it can import the Search Console property in one click).
-6. Optional email hygiene noticed during the DNS work: there is no SPF TXT record at @ for Google Workspace. Adding `v=spf1 include:_spf.google.com ~all` improves deliverability of hello@ mail. Not changed, because it is outside the website brief.
+6. SPF added 2026-10-31: TXT at @ `v=spf1 include:_spf.google.com ~all` for Google Workspace mail from hello@. DNS now holds: four GitHub A records, CNAME www, Google MX, DKIM, Search Console verification TXT, SPF TXT.
 
 ## Measurement
 
