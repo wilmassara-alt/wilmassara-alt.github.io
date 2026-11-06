@@ -38,6 +38,7 @@ gh api -X PUT repos/wilmassara-alt/wilmassara-alt.github.io/pages -F https_enfor
 - Cloudflare Web Analytics beacon is in `src/layouts/Base.astro` (account hello@wilmassara.com, hostname wilmassara.com). Dashboard: https://dash.cloudflare.com/ > Analytics > Web analytics.
 - Google Search Console: domain property under hello@wilmassara.com.
 - A monthly SEO review runs as a Claude Code scheduled task ("Monthly SEO review: wilmassara.com") on the 21st at 9am local time. It checks site health, Search Console, AI visibility, asks for the month's enquiry count, proposes next actions and appends to `deploy-notes/seo-log.md`.
+- Speed baseline (Lighthouse mobile, 2026-11-06): home 87 / corporate pages 95 / blog posts 92 performance; accessibility, best practices and SEO all 100. Re-run with `npx lighthouse https://wilmassara.com/ --chrome-flags=--headless=new`. Keep it there: the hero shows the optimised poster first and videos marked `data-lazy-video` only start after load; the motion bundle loads on idle; Cabinet Grotesk is self-hosted in `public/fonts/`; the hero loop in `public/media/hero-loop.mp4` stays under 600 KB.
 - Inbound links from Wil's own sites were staged (not published) on 2026-10-24 on the YLAA speaker profile and team profile (ylaaus.com). Publish the YLAA site to make them live. Wil asked for no link on The Youth Impact Foundation site; a staged TYIF edit was reverted the same day.
 
 ## Content rules
