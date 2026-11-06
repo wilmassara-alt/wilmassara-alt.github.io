@@ -26,12 +26,16 @@ else {
   groups.forEach((_, sec) => io.observe(sec));
   // anything the observer never reached (printing, odd scrollers) is shown after a moment
   setTimeout(() => pending.forEach((sec) => play(sec)), 6000);
-  // The hero's own parts rise at load
-  const heroParts = document.querySelectorAll<HTMLElement>('[data-hero-half]');
-  gsap.from(heroParts, { y: 30, opacity: 0, duration: 0.6, ease: 'power4.out', stagger: 0.08 });
 }
 
-window.addEventListener('load', () => ScrollTrigger.refresh());
+// Videos start only once the page has loaded, so the poster is the first paint
+document.querySelectorAll<HTMLVideoElement>('[data-lazy-video]').forEach((v) => {
+  v.src = v.dataset.lazyVideo!;
+  v.addEventListener('playing', () => v.classList.add('is-playing'), { once: true });
+  v.play().catch(() => {});
+});
+
+requestAnimationFrame(() => ScrollTrigger.refresh());
 
 // Hero reel: the strip passes through the sentence while the stage is held (scroll-linked, transform only)
 const hero = document.querySelector<HTMLElement>('[data-hero]');

@@ -18,7 +18,7 @@ const pics = sets[set];
 <section class="py-10" aria-label={title}>
   <div class="frame"><h2 class="t-lead font-extrabold rise">{title}</h2></div>
   <div class="mt-6 flex gap-6 overflow-x-auto px-[var(--margin)]">
-    <div class="pic h-[260px] flex-none md:h-[380px]"><video class="h-full w-auto" autoplay muted loop playsinline poster="/media/showreel-poster.jpg" aria-label="Wil Massara on stage, muted highlights"><source src="/media/hero-loop.mp4" type="video/mp4" /></video></div>
+    <div class="pic h-[260px] flex-none md:h-[380px]"><video class="h-full w-auto" muted loop playsinline preload="none" poster="/media/showreel-poster.jpg" data-lazy-video="/media/hero-loop.mp4" aria-label="Wil Massara on stage, muted highlights"></video></div>
     {pics.map(([img, alt]) => <div class="pic pic-drift h-[260px] flex-none md:h-[380px]"><Image src={img as any} alt={alt as string} height={760} class="h-full w-auto object-cover" /></div>)}
   </div>
 </section>

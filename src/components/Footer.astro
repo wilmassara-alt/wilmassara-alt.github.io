@@ -20,18 +20,18 @@ const audiences = [['/speaking/corporate/', 'Corporate'], ['/speaking/gen-z-work
       <div class="mt-16 grid gap-8 t-small sm:grid-cols-2">
         <div>
           <p class="font-extrabold">Contact</p>
-          <p class="mt-2"><a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a></p>
+          <p class="foot-links mt-2"><a href={`mailto:${SITE.email}`} class="link">{SITE.email}</a></p>
           <p class="mt-1">Sydney, Australia. Available worldwide.</p>
           <p class="mt-4 font-extrabold">Audiences</p>
-          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1">{audiences.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
+          <p class="foot-links mt-2 flex flex-wrap gap-x-3">{audiences.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
         </div>
         <div>
           <p class="font-extrabold">Social</p>
-          <p class="mt-2 flex flex-wrap gap-x-3"><a href={SITE.social.linkedin} target="_blank" rel="noopener me" class="link">LinkedIn</a><a href={SITE.social.instagram} target="_blank" rel="noopener me" class="link">Instagram</a><a href="/rss.xml" class="link">RSS</a></p>
+          <p class="foot-links mt-2 flex flex-wrap gap-x-3"><a href={SITE.social.linkedin} target="_blank" rel="noopener me" class="link">LinkedIn</a><a href={SITE.social.instagram} target="_blank" rel="noopener me" class="link">Instagram</a><a href="/rss.xml" class="link">RSS</a></p>
           <p class="mt-4 font-extrabold">Speaking in</p>
-          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1">{places.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
+          <p class="foot-links mt-2 flex flex-wrap gap-x-3">{places.map(([h, l]) => <a href={h} class="link">{l}</a>)}</p>
           <p class="mt-4 font-extrabold">Organisations</p>
-          <p class="mt-2 flex flex-wrap gap-x-3 gap-y-1"><a href={SITE.orgs.ylaa.url} target="_blank" rel="noopener" class="link">YLAA</a><a href={SITE.orgs.tyif.url} target="_blank" rel="noopener" class="link">The Youth Impact Foundation</a><a href={SITE.orgs.ylbs.url} target="_blank" rel="noopener" class="link">Magic Moments YLBS</a></p>
+          <p class="foot-links mt-2 flex flex-wrap gap-x-3"><a href={SITE.orgs.ylaa.url} target="_blank" rel="noopener" class="link">YLAA</a><a href={SITE.orgs.tyif.url} target="_blank" rel="noopener" class="link">The Youth Impact Foundation</a><a href={SITE.orgs.ylbs.url} target="_blank" rel="noopener" class="link">Magic Moments YLBS</a></p>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import { getCollection } from 'astro:content';
 import laugh from '@/assets/photos/candid-1.jpg';
 import auditorium from '@/assets/photos/auditorium.jpg';
 import podium from '@/assets/photos/candid-2.jpg';
+import poster from '@/assets/photos/showreel-poster.jpg';
 import stage from '@/assets/photos/hero-stage.jpg';
 import heart from '@/assets/photos/stage-heart.jpg';
 import podcast from '@/assets/photos/podcast.jpg';
@@ -58,16 +59,17 @@ const beliefs = [
         </h1>
         <div class="hero-reel md:absolute md:left-1/2 md:top-1/2 md:z-10 md:aspect-video md:w-[35vw] md:-translate-x-1/2 md:-translate-y-1/2" data-reel-track>
           <div class="absolute inset-x-0 top-0 flex flex-col gap-6" data-reel-strip>
-            <figure class="pic aspect-[4/3] md:aspect-video" data-reel-frame>
-              <video autoplay muted loop playsinline poster="/media/showreel-poster.jpg" aria-label="Wil Massara on stage, muted highlights"><source src="/media/hero-loop.mp4" type="video/mp4" /></video>
+            <figure class="pic relative aspect-[4/3] md:aspect-video" data-reel-frame>
+              <Image src={poster} alt="Wil Massara delivering a keynote on stage" width={1200} loading="eager" fetchpriority="high" class="h-full w-full object-cover" />
+              <video class="lazy-video absolute inset-0" muted loop playsinline preload="none" data-lazy-video="/media/hero-loop.mp4" aria-label="Wil Massara on stage, muted highlights"></video>
             </figure>
             {reel.map((r) => <figure class="pic aspect-[4/3] md:aspect-video" data-reel-frame><Image src={r.img} alt={r.alt} width={1200} loading="eager" class="h-full w-full object-cover" /></figure>)}
           </div>
         </div>
         <div class="hero-support relative z-20 max-w-[36ch] pb-2 md:absolute md:bottom-8 md:left-[var(--margin)]">
-          <p class="t-body rise" data-reel-caption>Gen Z keynote speaker for staff conferences, leadership teams and HR events. Founder of Youth Leadership Academy Australia at 15.</p>
+          <p class="t-body" data-reel-caption>Gen Z keynote speaker for staff conferences, leadership teams and HR events. Founder of Youth Leadership Academy Australia at 15.</p>
           <p class="t-small mt-3 text-muted" data-reel-captions data-captions={JSON.stringify(['Sydney. Available worldwide.', ...reel.map((r) => r.cap)])}>Sydney. Available worldwide.</p>
-          <a href="/book/" class="btn btn-accent mt-5 rise md:hidden">Check availability</a>
+          <a href="/book/" class="btn btn-accent mt-5 md:hidden">Check availability</a>
         </div>
       </div>
     </div>
