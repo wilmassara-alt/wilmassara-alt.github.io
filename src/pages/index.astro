@@ -1,6 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { SITE, TALKS, AUDIENCES, GENERAL_FAQ } from '@/data/site';
 import FAQ from '@/components/FAQ.astro';
 import CTA from '@/components/CTA.astro';
@@ -11,6 +11,7 @@ import laugh from '@/assets/photos/candid-1.jpg';
 import auditorium from '@/assets/photos/auditorium.jpg';
 import podium from '@/assets/photos/candid-2.jpg';
 import poster from '@/assets/photos/showreel-poster.jpg';
+const posterFrame = await getImage({ src: poster, width: 1200, format: 'webp' });
 import stage from '@/assets/photos/hero-stage.jpg';
 import heart from '@/assets/photos/stage-heart.jpg';
 import podcast from '@/assets/photos/podcast.jpg';
@@ -61,7 +62,7 @@ const beliefs = [
           <div class="absolute inset-x-0 top-0 flex flex-col gap-6" data-reel-strip>
             <figure class="pic relative aspect-[4/3] md:aspect-video" data-reel-frame>
               <Image src={poster} alt="Wil Massara delivering a keynote on stage" width={1200} loading="eager" fetchpriority="high" class="h-full w-full object-cover" />
-              <video class="lazy-video absolute inset-0" muted loop playsinline preload="none" data-lazy-video="/media/hero-loop.mp4" aria-label="Wil Massara on stage, muted highlights"></video>
+              <video class="lazy-video absolute inset-0" muted loop playsinline preload="none" poster={posterFrame.src} data-lazy-video="/media/hero-loop.mp4" aria-label="Wil Massara on stage, muted highlights"></video>
             </figure>
             {reel.map((r) => <figure class="pic aspect-[4/3] md:aspect-video" data-reel-frame><Image src={r.img} alt={r.alt} width={1200} loading="eager" class="h-full w-full object-cover" /></figure>)}
           </div>
