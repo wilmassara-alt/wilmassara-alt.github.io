@@ -44,3 +44,18 @@ Same results on build, live checks, audit and the six searches; GSC again blocke
 - Bureau profiles that own the name query (ICMI, Australian Speaker, All American Speakers) still show old numbers (30,000 young people, 1,000 schools). Ask each to update to 65,000+ / 1,500+ and link wilmassara.com.
 - Extra press found, not yet on /media: Albany Advertiser (inaugural Albany Changemakers Summit) and Ballarat Times (FUEL summit, March 2026). Candidates for the proof item alongside NZ Herald and The Educator.
 - /about/ H1 is "A kid from a coal town." with no name or role, which supports recommendation 2.
+
+### Addendum: numbers read with Wil signed in, 6 November 2026
+Search Console (data through 3 November, Google lags about two days):
+- Last 28 days (23 Oct to 3 Nov): 21 clicks, 574 impressions, CTR 3.7%, average position 6.1, 40 queries, 33 pages, 36 countries.
+- Last 7 days (28 Oct to 3 Nov): 15 clicks, 365 impressions, CTR 4.1%, average position 6.0.
+- Top page by far: /blog/why-banning-ai-in-schools-fails-students/ with 13 clicks and 393 impressions. Then home 2/28, old www /about 2/23, /about/ 0/37, /speaking/schools/ 0/19.
+- Brand: "wil massara" 2 clicks, 9 impressions, position 1.9. "ylaa" 6 impressions at 4.5.
+- Commercial queries with impressions but no clicks: school leadership keynote speaker (9, pos 10), gen z in the workplace keynote speaker (5, pos 3.6), find a keynote speaker on gen z for an hr conference (2, pos 1), book gen z workplace speaker (1, pos 3), gen z employee retention speakers (1, pos 4), keynote speaker brisbane (2, pos 21.5), keynote speaker perth (2, pos 25).
+- Countries: Australia 14 clicks / 380 impressions, South Korea 3/9, United States 2/65, Philippines 2/26, then India, NZ, Hong Kong, Canada, UK, Indonesia with impressions only.
+- Generative AI features report (beta): 170 impressions in 28 days, 131 of them on the AI-ban blog post, 6 on /about/, rest spread over blog posts, home and the Perth page. So the site is already appearing inside Google AI Overviews / AI Mode for the AI-in-schools topic.
+Cloudflare Web Analytics (bots excluded):
+- Last 7 days: 48 visits, 53 page views. Referrers: direct 33, google.com 15. Countries: Australia 24, US 14, China 3, South Korea 2, Philippines 2. Top paths: / 26, AI-ban post 13, /speaking/gen-z-workplace-speaker/ 2. Desktop 38, mobile 10.
+- Last 30 days: about 100 visits, 110 page views (30-day view is sampled so numbers are rounded).
+- Core Web Vitals from real visitors (24h): LCP P75 1.2s, INP and CLS all good.
+Redirects for the old Squarespace paths (/gen-z-speaker, /booking, /contact, /faqs, old 7-reasons blog slug) were added to astro.config.mjs and deployed today.
