@@ -9,7 +9,7 @@ export const SITE = {
     'Wil Massara is an Australian Gen Z keynote speaker on youth leadership, education and the future of work. Founder of Youth Leadership Academy Australia at 15, reaching 65,000+ young people across 1,500+ schools. Available for keynotes worldwide.',
   locale: 'en-AU',
   base: 'Sydney, Australia',
-  jobTitles: ['Keynote Speaker', 'Founder & CEO, Youth Leadership Academy Australia', 'General Manager, The Youth Impact Foundation', 'Co-host, Podclass'],
+  jobTitles: ['Keynote Speaker', 'Founder and CEO, Youth Leadership Academy Australia', 'General Manager, Youth Leadership and Business Summit', 'Head of Growth, The Youth Impact Foundation', 'Co-host, Podclass'],
   social: {
     linkedin: 'https://www.linkedin.com/in/wil-massara/',
     instagram: 'https://www.instagram.com/wilmassara/',
@@ -30,7 +30,7 @@ export const SITE = {
   orgs: {
     ylaa: { name: 'Youth Leadership Academy Australia', url: 'https://www.ylaaus.com', founded: '2018' },
     tyif: { name: 'The Youth Impact Foundation', url: 'https://www.theyouthimpactfoundation.org.au' },
-    ylbs: { name: 'Magic Moments Youth Leadership & Business Summit', url: 'https://youthleadershipandbusinesssummit.org.au' },
+    ylbs: { name: 'Youth Leadership and Business Summit', url: 'https://youthleadershipandbusinesssummit.org.au' },
     podclass: { name: 'Podclass', url: 'https://open.spotify.com/show/1HllFGXHACPMngDsBFHi4A' },
   },
 };
@@ -55,7 +55,7 @@ export const AWARDS = [
 export const MEDIA_LOGOS = ['Studio 10', 'news.com.au', 'Herald Sun', 'The Daily Telegraph', 'NZ Herald', 'The Educator', 'Hit Network', '6PR', 'Daily Mail', 'South Western Times'];
 
 export const CLIENT_LOGOS = [
-  'Road Safety Commission WA', 'Catholic Education WA', 'Inner West Council', 'Positive Schools', 'Future Schools Alliance', 'Bendigo Bank', 'Lotterywest', 'Shire of Broome', 'Corangamite Shire', 'Federation Council', 'Mildura Rural City Council', 'National Leadership Camp', 'Magic Moments Foundation', 'Department of Communities WA',
+  'Road Safety Commission WA', 'Catholic Education WA', 'Inner West Council', 'Positive Schools', 'Future Schools Alliance', 'Bendigo Bank', 'Lotterywest', 'Shire of Broome', 'Corangamite Shire', 'Federation Council', 'Mildura Rural City Council', 'National Leadership Camp', 'Department of Communities WA',
 ];
 
 export type Talk = {
@@ -356,7 +356,7 @@ export const GEOS: Geo[] = [
       "Sydney is home. I live here, The Youth Impact Foundation is headquartered in Macquarie Park, and YLAA's biggest annual event fills ICC Sydney with student leaders from hundreds of NSW schools.",
       "For Sydney organisers that means no travel costs, short-notice availability and a speaker who has stood on the city's biggest stages in front of its toughest audience: teenagers.",
     ],
-    local: ['YLAA Sydney national tour at ICC Sydney, annually', 'Inner West Youth Voice Summit with Inner West Council', 'Magic Moments Youth Leadership & Business Summit, NSW', 'Regional NSW Youth Leadership Summit with Federation Council'],
+    local: ['YLAA Sydney national tour at ICC Sydney, annually', 'Inner West Youth Voice Summit with Inner West Council', 'Youth Leadership and Business Summit, NSW', 'Regional NSW Youth Leadership Summit with Federation Council'],
     travel: 'No travel or accommodation costs for Sydney metro events. Regional NSW dates in Newcastle, Wollongong, the Central Coast, Dubbo and the Riverina are a short trip.',
     faq: [
       { q: 'Is Wil available at short notice in Sydney?', a: 'Often, yes. Because I am based in Sydney, I can sometimes fill a cancelled slot with a week or two of notice. Ask.' },
@@ -420,7 +420,7 @@ export const GEOS: Geo[] = [
     title: 'Keynote Speaker New Zealand | Youth Leadership & Gen Z | Wil Massara',
     description: 'Australian Gen Z keynote speaker Wil Massara for conferences, school leadership events and youth sector forums in Auckland, Wellington, Christchurch and NZ-wide.',
     intro: [
-      "The Youth Impact Foundation, where I am General Manager, delivers programs in Aotearoa New Zealand through Burn Bright NZ and InnerFit. That gives me a working relationship with the NZ education sector and a reason to be across the Tasman regularly.",
+      "The Youth Impact Foundation, where I am Head of Growth, delivers programs in Aotearoa New Zealand through Burn Bright NZ and InnerFit. That gives me a working relationship with the NZ education sector and a reason to be across the Tasman regularly.",
       "New Zealand conference and school organisers book me for a Gen Z perspective that is close to home and an origin story that lands with students and educators alike.",
     ],
     local: ['The Youth Impact Foundation NZ programs: Burn Bright NZ and InnerFit', 'Available for Auckland, Wellington, Christchurch, Hamilton, Dunedin and regional events'],

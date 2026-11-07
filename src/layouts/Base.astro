@@ -25,10 +25,16 @@ const person = {
   birthPlace: { '@type': 'Place', name: 'Collie, Western Australia' },
   sameAs: SITE.sameAs,
   knowsAbout: ['Youth leadership', 'Gen Z', 'Future of work', 'Education', 'Student leadership', 'Co-design', 'Youth engagement', 'Social enterprise', 'Intergenerational leadership', 'AI in education'],
-  hasOccupation: { '@type': 'Occupation', name: 'Keynote speaker', occupationLocation: { '@type': 'Country', name: 'Australia' } },
+  hasOccupation: [
+    { '@type': 'Occupation', name: 'Keynote speaker', occupationLocation: { '@type': 'Country', name: 'Australia' } },
+    { '@type': 'Occupation', name: 'Chief Executive Officer, Youth Leadership Academy Australia' },
+    { '@type': 'Occupation', name: 'General Manager, Youth Leadership and Business Summit' },
+    { '@type': 'Occupation', name: 'Head of Growth, The Youth Impact Foundation' },
+  ],
   worksFor: [
     { '@type': 'Organization', '@id': `${SITE.orgs.tyif.url}/#organization`, name: SITE.orgs.tyif.name, url: SITE.orgs.tyif.url },
     { '@type': 'Organization', '@id': `${SITE.orgs.ylaa.url}/#organization`, name: SITE.orgs.ylaa.name, url: SITE.orgs.ylaa.url, foundingDate: '2018', founder: { '@id': `${SITE.url}/#person` } },
+    { '@type': 'Organization', '@id': `${SITE.orgs.ylbs.url}/#organization`, name: SITE.orgs.ylbs.name, url: SITE.orgs.ylbs.url },
   ],
   award: ['2026 The Diana Award', '2026 Commonwealth Youth Awards finalist', '2025 WA Young Achiever of the Year, Community Leadership', '2025 Mission Australia Young Changemaker Award, WA Youth Awards', '2022 Changemaker Entrepreneur of the Year, The Entourage'],
   alumniOf: { '@type': 'EducationalOrganization', name: 'Australian Institute of Management (MBA)' },
