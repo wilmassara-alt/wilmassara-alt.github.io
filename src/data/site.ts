@@ -52,7 +52,7 @@ export const AWARDS = [
   { year: '2022', title: 'Changemaker Entrepreneur of the Year', by: 'The Entourage' },
 ];
 
-export const MEDIA_LOGOS = ['Studio 10', 'news.com.au', 'Herald Sun', 'The Daily Telegraph', 'NZ Herald', 'The Educator', 'Hit Network', '6PR', 'Daily Mail', 'South Western Times'];
+export const MEDIA_LOGOS = ['Studio 10', 'news.com.au', 'Herald Sun', 'The Daily Telegraph', 'NZ Herald', 'The Educator', 'Hit Network', '6PR', 'Daily Mail', 'Ballarat Times', 'Albany Advertiser', 'South Western Times'];
 
 export const CLIENT_LOGOS = [
   'Road Safety Commission WA', 'Catholic Education WA', 'Inner West Council', 'Positive Schools', 'Future Schools Alliance', 'Bendigo Bank', 'Lotterywest', 'Shire of Broome', 'Corangamite Shire', 'Federation Council', 'Mildura Rural City Council', 'National Leadership Camp', 'Department of Communities WA',
