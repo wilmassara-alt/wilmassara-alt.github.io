@@ -16,7 +16,7 @@ faq:
 
 The exit interview is the wrong place to find out why your Gen Z staff leave. By then the story has been tidied up. "Better opportunity." "More money." "Wasn't the right fit." All true, none of it the real reason.
 
-I have hired young staff, led them, and lost some of them. I have also spent most of the last decade working with young people across Australia, and I am Gen Z myself. The pattern I see is the same in a 20-person charity and a 20,000-person bank. Gen Z turnover is a first-year problem, and it is decided at five moments that most leaders never notice.
+I have hired and led young staff, and not all of them stayed. I have also spent most of the last decade working with young people across Australia, and I am Gen Z myself. The pattern I see is the same in a 20-person charity and a 20,000-person bank. Gen Z turnover is a first-year problem, and it is decided at five moments that most leaders never notice.
 
 First, the numbers, because the scale of this is bigger than most executives think.
 

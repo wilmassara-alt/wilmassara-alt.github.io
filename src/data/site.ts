@@ -43,6 +43,8 @@ export const STATS = [
 ];
 
 export const AWARDS = [
+  { year: '2026', title: 'The Diana Award', by: 'For outstanding young people creating positive social change, in memory of Diana, Princess of Wales' },
+  { year: '2026', title: 'Commonwealth Youth Awards finalist', by: 'One of 20 finalists across the Commonwealth, chosen from 977 entries, for advancing the Sustainable Development Goals' },
   { year: '2025', title: 'WA Young Achiever of the Year, Community Leadership', by: '7NEWS Young Achiever Awards (Catholic Education WA Young Leadership Award)' },
   { year: '2025', title: 'Mission Australia Young Changemaker Award', by: 'WA Youth Awards, Youth Affairs Council of WA' },
   { year: '2025', title: 'One of 50 global changemakers', by: 'Global Changemakers Youth Summit, Cape Town' },
