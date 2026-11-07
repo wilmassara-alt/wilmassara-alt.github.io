@@ -17,3 +17,7 @@ Monthly steps (run with the 21st review, data lags 2 to 3 days):
 4. speed.json only changes after a performance pass (fixed dataset).
 5. Upload each changed file with the Artifact tool (asset: true, url above, one JSON file per call), then ArtifactData update on datasets/<id>: new source.url, source.name, updated {at, by}, and edit {via: "claude", at}. Pass if_version from the last read.
 6. Keep a copy of every file in this folder; it is the long-term history.
+
+## Page notes (2026-11-08)
+- The dashboard page (files/index.html in the artifact store; a copy is dashboard-index.html here) wears the wilmassara.com look: Cabinet Grotesk embedded as base64 data URIs (the dashboard CSP blocks Fontshare), Studio grey ground #a8a8aa, surface #b4b4b6, ink #0e0e0e, accent #1f5c49, black field #1b1b1c for the header and recommendations bands. No hairlines, shadows, pills or gradients. All scripts in one block (each block is its own scope).
+- "What to do in <month>" is static text in the page (one-writer rule). Rewrite the list at each monthly review from the new numbers: read files/index.html with ArtifactData, replace the <ol> inside .wm-recs and the heading month, write it back with if_version.
