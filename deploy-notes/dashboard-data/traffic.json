@@ -1,0 +1,16 @@
+[
+ {
+  "window": "Last 7 days",
+  "start": "2026-10-31",
+  "end": "2026-11-06",
+  "days": 7,
+  "visits": 48,
+  "pageviews": 53,
+  "from_google": 15,
+  "direct": 33,
+  "australia": 24,
+  "united_states": 14,
+  "desktop": 38,
+  "mobile": 10
+ }
+]

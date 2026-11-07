@@ -1,0 +1,52 @@
+[
+ {
+  "country": "Australia",
+  "clicks": 14,
+  "impressions": 380
+ },
+ {
+  "country": "South Korea",
+  "clicks": 3,
+  "impressions": 9
+ },
+ {
+  "country": "United States",
+  "clicks": 2,
+  "impressions": 65
+ },
+ {
+  "country": "Philippines",
+  "clicks": 2,
+  "impressions": 26
+ },
+ {
+  "country": "India",
+  "clicks": 0,
+  "impressions": 10
+ },
+ {
+  "country": "New Zealand",
+  "clicks": 0,
+  "impressions": 10
+ },
+ {
+  "country": "Hong Kong",
+  "clicks": 0,
+  "impressions": 9
+ },
+ {
+  "country": "Canada",
+  "clicks": 0,
+  "impressions": 7
+ },
+ {
+  "country": "United Kingdom",
+  "clicks": 0,
+  "impressions": 7
+ },
+ {
+  "country": "Indonesia",
+  "clicks": 0,
+  "impressions": 6
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "check": "Home performance (Lighthouse, mobile)",
+  "before": 67,
+  "after": 87,
+  "unit": "score"
+ },
+ {
+  "check": "Home largest paint (lab)",
+  "before": 5.3,
+  "after": 3.8,
+  "unit": "s"
+ },
+ {
+  "check": "Home blocking time (lab)",
+  "before": 510,
+  "after": 90,
+  "unit": "ms"
+ },
+ {
+  "check": "Accessibility",
+  "before": 96,
+  "after": 100,
+  "unit": "score"
+ }
+]
