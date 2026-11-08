@@ -71,3 +71,5 @@ One of those risks is recoverable. One is not.
 I have a lot of respect for teachers and school leaders. This is not a criticism of them. It is a criticism of a system that moves slowly by design and is now facing something that does not. Working with the system means saying the uncomfortable thing early, and this is it.
 
 What is your school's AI policy, and did a single student help write it?
+
+*If this is the conversation your staff need to have, I run it as a [keynote or staff PD session for schools](/speaking/schools/). The thinking behind it sits with two other pieces: why [leadership should be taught like reading](/blog/leadership-literacy-why-leadership-should-be-taught-like-reading/) and [what principals want from a school speaker](/blog/what-principals-want-from-a-school-speaker/).*

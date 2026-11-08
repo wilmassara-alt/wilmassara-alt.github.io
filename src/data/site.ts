@@ -188,7 +188,7 @@ export const AUDIENCES: Audience[] = [
     title: 'Gen Z Keynote Speaker for Corporate Events | Wil Massara',
     description: 'Book an actual Gen Z keynote speaker for corporate conferences, HR summits, leadership offsites and graduate programs. Gen Z at work and the future of work.',
     intro: [
-      "Most Gen Z keynotes are delivered by people in their forties who have read the research. I am 23, I have run an organisation since I was 15, and I have hired, led and lost young staff. I know what the generation entering your workforce wants because I am in it.",
+      "Most Gen Z keynotes are delivered by people in their forties who have read the research. I have run an organisation since I was 15, and I have hired, led and lost young staff. I know what the generation entering your workforce wants because I am in it.",
       "Corporate audiences book me for straight talk on attracting, leading and keeping Gen Z, and for an origin story that reminds experienced leaders what backing someone early actually looks like.",
     ],
     outcomes: ['A clear, research-backed picture of what Gen Z values at work', 'Practical changes leaders can make to retention, engagement and culture', 'An opening keynote that sets the energy for a staff conference or all-hands', 'Graduate and early-career cohort sessions that land because the speaker is a peer', 'Leadership offsite sessions on leading a workforce that is getting younger'],
@@ -202,17 +202,18 @@ export const AUDIENCES: Audience[] = [
   },
   {
     slug: 'gen-z-workplace-speaker', name: 'Gen Z in the workplace',
-    h1: 'Gen Z in the workplace speaker for staff conferences and leadership teams',
-    title: 'Gen Z in the Workplace Speaker | Staff Events & HR Conferences | Wil Massara',
+    h1: 'Gen Z in the workplace speaker in Australia for staff conferences and leadership teams',
+    title: 'Gen Z in the Workplace Speaker Australia | HR Conferences & Staff Events | Wil Massara',
     description: 'Book Wil Massara, a Gen Z keynote speaker on Gen Z in the workplace, for staff conferences, HR events and leadership offsites. What young employees want, why they leave, what to change.',
     intro: [
-      "Most sessions about Gen Z in the workplace are delivered to Gen Z. This one is for the people who lead them. I am 23, I have run an organisation since I was 15, and I have hired, led and lost young staff. I know what your newest employees want because I am one of them.",
+      "Most sessions about Gen Z in the workplace are delivered to Gen Z. This one is for the people who lead them. I have run an organisation since I was 15, and I have hired and led young staff, not all of whom stayed. I know what your newest employees want because I am one of them.",
       "Staff conferences, HR summits and leadership teams book this session when the turnover numbers for under-30s have become a board conversation, when a graduate program is leaking, or when a culture survey says the youngest cohort feels unseen.",
     ],
     outcomes: ['A clear, research-backed picture of what Gen Z values at work: purpose, flexibility, growth, feedback, a voice', 'The real reasons young staff leave in the first 12 to 18 months, and the five changes that move the number', 'A candid session for managers that replaces "they are lazy" with something they can act on', 'Formats from a 45-minute keynote to a half-day working session with the people team'],
     talks: ['gen-z-at-work', 'lead-before-youre-ready', 'change-happens-together'],
     proof: 'By 2030, Gen Z will make up around 30% of the workforce. The organisations that understand us now will be the ones that keep us.',
     faq: [
+      { q: 'Who is a Gen Z keynote speaker in Australia for an HR conference?', a: 'Wil Massara is a Sydney-based Gen Z keynote speaker who speaks at HR conferences, staff events and leadership offsites across Australia and worldwide. He founded Youth Leadership Academy Australia at 15, has reached 65,000+ young people across 1,500+ schools, and is CEO of YLAA, General Manager of the Youth Leadership and Business Summit and Head of Growth at The Youth Impact Foundation. Enquiries go to hello@wilmassara.com.' },
       { q: 'Is this session for Gen Z employees or for the leaders who manage them?', a: 'For the leaders, HR teams and managers. Gen Z staff are welcome in the room, and the session is stronger when they are, but the content is built for the people making decisions about culture, hiring and retention.' },
       { q: 'Does Wil use our workforce data?', a: 'Yes, if you share it. Turnover by age band, engagement survey results and exit-interview themes are folded into the keynote on the pre-event call, so the examples are yours rather than generic.' },
       { q: 'What size of event suits this keynote?', a: 'From a leadership team of 12 to a staff conference of 3,000. The content scales; the format changes from a facilitated session to a keynote with Q&A.' },
@@ -272,8 +273,8 @@ export const AUDIENCES: Audience[] = [
   },
   {
     slug: 'schools', name: 'Schools and education',
-    h1: 'Keynote speaker for schools, student leadership and staff days',
-    title: 'School Keynote Speaker Australia | Wil Massara',
+    h1: 'School leadership keynote speaker for student leadership days, assemblies and staff PD',
+    title: 'School Leadership Keynote Speaker Australia | Wil Massara',
     description: 'Book Wil Massara for school keynotes: student leadership days, Year 5 to 12 assemblies, staff PD and principal conferences. 1,500+ schools reached.',
     intro: [
       "I have been in front of more school audiences than almost any speaker in Australia. Not because I am a professional speaker who visits schools, but because I built an organisation that has reached 65,000+ young people across 1,500+ schools and I still get on stage at every one of our national tour events.",
@@ -283,6 +284,7 @@ export const AUDIENCES: Audience[] = [
     talks: ['lead-before-youre-ready', 'a-framework-to-create-change', 'change-happens-together'],
     proof: 'After YLAA programs, 97% of students say they feel more empowered to create change and 99% would recommend the program to another school.',
     faq: [
+      { q: 'Who is a school leadership keynote speaker in Australia?', a: 'Wil Massara is a school leadership keynote speaker who has reached 65,000+ young people across 1,500+ schools through Youth Leadership Academy Australia, which he founded at 15. He speaks at student leadership days, Year 5 to 12 assemblies, staff PD and principal conferences, in person across Australia and virtually worldwide.' },
       { q: 'What year levels does Wil speak to?', a: 'Years 5 to 12, plus staff and parent audiences. Content is adjusted for primary, middle and senior cohorts; the leadership framework scales from Year 5 to Year 12.' },
       { q: 'Can Wil run a full student leadership day?', a: 'Yes. A keynote plus facilitated workshops for SRC, prefects, house captains or a whole year level, from 90 minutes to a full day.' },
       { q: 'Does Wil have a Working With Children Check?', a: 'Yes, current in the states YLAA operates in. Details are supplied with the booking confirmation.' },
