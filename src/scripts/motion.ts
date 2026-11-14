@@ -88,6 +88,8 @@ tabs.forEach((t) => t.addEventListener('click', () => {
 const reelBtns = document.querySelectorAll<HTMLElement>('[data-reel-open]');
 const modal = document.getElementById('reel-modal');
 if (modal && reelBtns.length) {
+  // The modal sits inside a .rise wrapper whose transform would trap position: fixed; lift it to the body so it fills the screen
+  document.body.appendChild(modal);
   const video = modal.querySelector('video') as HTMLVideoElement;
   const open = () => { modal.classList.remove('hidden'); modal.classList.add('flex'); document.documentElement.classList.add('lenis-stopped'); video.currentTime = 0; video.play().catch(() => {}); };
   const close = () => { video.pause(); modal.classList.add('hidden'); modal.classList.remove('flex'); document.documentElement.classList.remove('lenis-stopped'); };

@@ -26,7 +26,7 @@ const description = SITE.description;
 const schema = [
   { '@type': 'FAQPage', mainEntity: GENERAL_FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
   { '@type': 'Service', '@id': `${SITE.url}/#service`, serviceType: 'Keynote speaking', name: 'Keynote speaking by Wil Massara', provider: { '@id': `${SITE.url}/#person` }, areaServed: ['Australia', 'New Zealand', 'Singapore', 'United Kingdom', 'United States', 'Worldwide'], audience: { '@type': 'Audience', audienceType: ['Conference organisers', 'Schools', 'Corporate HR and leadership teams', 'Government and councils'] }, hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Keynotes and workshops', itemListElement: TALKS.map((t) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: t.title, url: `${SITE.url}/speaking/${t.slug}/`, description: t.summary } })) } },
-  { '@type': 'VideoObject', name: 'Wil Massara keynote showreel', description: 'Highlights from Wil Massara’s keynote Lead Before You’re Ready, filmed at a Youth Leadership Academy Australia conference.', thumbnailUrl: `${SITE.url}/media/showreel-poster.jpg`, contentUrl: `${SITE.url}/media/showreel.mp4`, uploadDate: '2026-05-21', duration: 'PT3M40S' },
+  { '@type': 'VideoObject', name: 'Wil Massara | Keynote Speaker Reel', description: 'Wil Massara’s 2026 keynote speaker reel. Highlights from his keynotes on leadership, Gen Z and intergenerational collaboration, filmed live on conference stages.', thumbnailUrl: `${SITE.url}/media/showreel-poster.jpg`, contentUrl: `${SITE.url}/media/showreel.mp4`, uploadDate: '2026-11-14', duration: 'PT1M54S' },
 ];
 const reel = [
   { img: podium, alt: 'Wil Massara at the WA Youth Awards 2025 podium', cap: '2025. WA Youth Awards Young Changemaker.' },
@@ -105,7 +105,7 @@ const beliefs = [
   <section class="frame section" aria-labelledby="reel-h">
     <h2 id="reel-h" class="t-head rise text-center">See him work a room</h2>
     <div class="mx-auto mt-10 w-full max-w-[52vw] rise max-md:max-w-none"><Reel /></div>
-    <p class="t-body mx-auto mt-6 max-w-[34ch] text-center rise">Three minutes forty from a keynote to 1,500 fourteen-year-olds. No notes.</p>
+    <p class="t-body mx-auto mt-6 max-w-[34ch] text-center rise">The 2026 reel. Just under two minutes, cut from keynotes on a few different stages.</p>
   </section>
 
   <!-- 5. List: sticky photograph, active list -->
